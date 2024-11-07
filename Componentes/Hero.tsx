@@ -1,12 +1,30 @@
 import React from "react";
 import Image from "next/image";
-import BHC from "../IMG/HeroIMG.png";
+import HeroIMG from "../IMG/HeroIMG.png";
+import BGHero from '../IMG/Hero.png';
+import Menu from "./Menu";
 
 
 const Hero = () => {
   
 
   return (
+
+    <div style={{
+      backgroundImage: `url(${BGHero.src})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center 10%',
+      backgroundRepeat: 'no-repeat',
+      width: '100%',
+    }}>
+
+    <div className="lg:mt-7 lg:w-[95%] mx-auto">
+
+          <Menu />
+
+    </div>
+
+
     <div
       id="hero"
       className="bg-hero bg-cover flex flex-col items-center lg:flex-row lg:justify-evenly lg:items-end w-full"
@@ -26,10 +44,10 @@ const Hero = () => {
       </div>
 
       <div className="flex bg-emerald-50 mt-5 lg:mt-0 lg:py-0 lg:bg-transparent flex-col lg:flex-row w-full justify-center items-center lg:items-end border">
-        <div className="flex md:w-1/2">
+        <div className="lg:flex md:w-1/2 hidden">
           <Image
-            className="w-[200px] lg:w-[500px] h-full"
-            src={BHC}
+            className=" w-[700px] h-[510px]"
+            src={HeroIMG}
             width={0}
             height={0}
             alt="hero-img"
@@ -38,6 +56,8 @@ const Hero = () => {
 
        
       </div>
+    </div>
+
     </div>
   );
 };
