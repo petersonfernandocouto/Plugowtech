@@ -30,7 +30,7 @@ const Hero = () => {
         id="hero"
         className="bg-hero bg-cover flex flex-col items-center lg:flex-row lg:justify-evenly lg:items-end w-full"
       >
-        <div className="flex flex-col justify-evenly items-center w-full">
+        <div className="flex flex-col justify-evenly items-center w-full lg:mb-10">
           <div className="flex flex-col items-center lg:items-start lg:mt-10">
             <h1 className="text-3xl text-center px-1 lg:px-0 font-semibold lg:text-[64px] lg:w-[620px] lg:leading-none lg:text-start pb-7 font-['Audiowide']">
               Transforme Suas Compras em <span className="text-[#4A90E2]">Recompensas</span>
@@ -58,7 +58,7 @@ const Hero = () => {
 
             <div
               ref={PremiosRef}
-              className={`absolute top-16 right-1 bg-[rgba(64,64,66,0.4)] w-fit px-4 py-2 rounded-full text-white font-bold mt-48 flex border border-white border-opacity-50 transition-all duration-1000 ${
+              className={`absolute top-16 right-1 bg-[rgba(64,64,66,0.4)] w-fit px-4 py-2 rounded-full font-bold mt-48 flex border border-white border-opacity-50 transition-all duration-1000 ${
                 PremiosInView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-full"
               }`}
               style={{ transitionDelay: PremiosInView ? "1s" : "0s" }}
