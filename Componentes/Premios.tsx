@@ -1,18 +1,30 @@
 import React from 'react';
 import Image from 'next/image';
 import PremiosIMG from '../IMG/PremiosIMG.png';
+import premios from '../IMG/Premios.png';
 import { FaTrophy } from 'react-icons/fa6';
 
 const Premios = () => {
   return (
-    <div>
+    <div
+      style={{
+        backgroundImage: `url(${premios.src})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center 10%",
+        backgroundRepeat: "no-repeat",
+        width: "100%",
+        borderTopLeftRadius: '80px',
+        borderTopRightRadius: '80px',
+        overflow: 'visible' // Alterando para 'visible' para permitir a invasão do elemento
+      }}
+    >
       <div
         id="Premios"
         className="bg-hero bg-cover flex flex-col items-center lg:flex-row lg:justify-evenly lg:items-end w-full"
       >
-        <div className="hidden lg:block relative -top-10">
+        <div className="hidden lg:block relative -top-10 mb-[-40px] z-10"> {/* Adicionando z-index para garantir que fique acima */}
           <Image
-            className="w-[1200px] h-[680px]"
+            className="w-[1250px] h-[100%]"
             src={PremiosIMG}
             width={0}
             height={0}
@@ -20,7 +32,7 @@ const Premios = () => {
           />
         </div>
 
-        <div className="flex flex-col justify-evenly items-center w-full lg:mb-52">
+        <div className="flex flex-col justify-evenly items-center w-full lg:mb-52 z-0">
           <div className="flex flex-col items-center lg:items-start">
             <h1 className="text-3xl text-center px-1 font-semibold lg:text-[54px] lg:w-[620px] lg:leading-none lg:text-start font-['Audiowide']">
               Ganhe Pontos nas
@@ -36,7 +48,6 @@ const Premios = () => {
             </button>
           </div>
         </div>
-
       </div>
     </div>
   );
