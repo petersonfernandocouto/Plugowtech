@@ -35,7 +35,7 @@ function Menu() {
         {/* Links de navegação adicionais para telas grandes */}
         <div className="hidden lg:flex gap-[120px] lg:pr-20">
           <Link className="hover:text-gray-300 transition-colors duration-300" href="/">Lojas</Link>
-          <Link className="hover:text-gray-300 transition-colors duration-300" href="/">FAQ</Link>
+          <Link className="hover:text-gray-300 transition-colors duration-300" href="/">Cadastrar</Link>
           <Link className="hover:text-gray-300 transition-colors duration-300 " href="/">Login</Link>
         </div>
 
@@ -58,7 +58,7 @@ function Menu() {
         <Link className="hover:text-gray-300 py-2" href="/" onClick={() => closeMenuOnClick("#")}>Prêmios</Link>
         <Link className="hover:text-gray-300 py-2" href="/" onClick={() => closeMenuOnClick("#")}>Dashboard</Link>
         <Link className="hover:text-gray-300 py-2" href="/" onClick={() => closeMenuOnClick("#")}>Lojas</Link>
-        <Link className="hover:text-gray-300 py-2" href="/" onClick={() => closeMenuOnClick("#")}>FAQ</Link>
+        <Link className="hover:text-gray-300 py-2" href="/" onClick={() => closeMenuOnClick("#")}>Cadastrar</Link>
         <Link className="hover:text-gray-300 py-2" href="/" onClick={() => closeMenuOnClick("#")}>Login</Link>
       </div>
     </div>
