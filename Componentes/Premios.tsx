@@ -32,7 +32,7 @@ const Premios = () => {
           />
         </div>
 
-        <div className="flex flex-col justify-evenly items-center w-full lg:mb-52 z-0">
+        <div className="flex flex-col justify-evenly items-center w-full lg:mb-40 z-0">
           <div className="flex flex-col items-center lg:items-start">
             <h1 className="text-3xl text-center px-1 font-semibold lg:text-[54px] lg:w-[620px] lg:leading-none lg:text-start font-['Audiowide']">
               Ganhe Pontos nas
