@@ -3,13 +3,28 @@ import { TiShoppingCart } from "react-icons/ti";  //Card
 
 import { FaTelegramPlane } from "react-icons/fa"; //Share
 
-import { GiNetworkBars } from "react-icons/gi"; // Rede
+import { GiNetworkBars, GiCommercialAirplane } from "react-icons/gi"; // Rede + AirPlane
 
-import { GiCommercialAirplane } from "react-icons/gi"; //AirPlane
+import PointsBG from '../IMG/PointsBG.png'
 
 const Points = () => {
+
+
   return (
-    <div className="flex justify-center items-center min-h-screen ">
+
+
+    <div 
+      style={{
+        backgroundImage: `url(${PointsBG.src})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center 25%",
+        backgroundRepeat: "no-repeat",
+        width: "100%",
+        borderTopLeftRadius: '80px',
+        borderTopRightRadius: '80px',
+        overflow: 'visible' // Alterando para 'visible' para permitir a invasão do elemento
+      }}
+      className="flex justify-center items-center min-h-screen ">
       <div className='flex text-center items-center lg:flex-row lg:justify-evenly gap-16'> {/* Div para Telas LG */}
 
         <div className='flex flex-col items-center relative'>
