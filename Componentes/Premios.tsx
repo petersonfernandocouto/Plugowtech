@@ -22,7 +22,7 @@ const Premios = () => {
         id="Premios"
         className="bg-hero bg-cover flex flex-col items-center lg:flex-row lg:justify-evenly lg:items-end w-full"
       >
-        <div className="hidden lg:block relative -top-10 mb-[-40px] z-10"> {/* Adicionando z-index para garantir que fique acima */}
+        <div className="hidden lg:block relative -top-10 mb-[-40px] z-10"> 
           <Image
             className="w-[1250px] h-[100%]"
             src={PremiosIMG}

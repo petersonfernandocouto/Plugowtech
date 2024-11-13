@@ -9,8 +9,8 @@ import { GiCommercialAirplane } from "react-icons/gi"; //AirPlane
 
 const Points = () => {
   return (
-    <div>
-      <div className='flex text-center items-center lg:flex-row lg:justify-evenly'> {/* Div para Telas LG */}
+    <div className="flex justify-center items-center min-h-screen ">
+      <div className='flex text-center items-center lg:flex-row lg:justify-evenly gap-16'> {/* Div para Telas LG */}
 
         <div className='flex flex-col items-center relative'>
 
@@ -78,7 +78,7 @@ const Points = () => {
 
         <p className='text-[20px]'>Troque seus<br /> pontos por prêmios<br /> incríveis</p>
 
-        {/* Linha vertical entre o segundo <p> e o ícone */}
+        {/* Linha vertical */}
         <div className="border-l-2 border-gray-300 h-[60px] mt-2"></div>
 
         <p className='text-[50px] font-[Audiowide]'>4</p>
