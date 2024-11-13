@@ -4,6 +4,7 @@ import Hero from "../../Componentes/Hero";
 import Premios from "../../Componentes/Premios";
 import Points from "../../Componentes/Points";
 import PointsMobile from "../../Componentes/PointsMobile";
+import Invitation from "../../Componentes/invitation";
 
 export default function Home() {
   return (
@@ -32,6 +33,12 @@ export default function Home() {
       <div className=" lg:hidden">
 
         <PointsMobile />
+
+      </div>
+
+      <div>
+
+        <Invitation />
 
       </div>
 
