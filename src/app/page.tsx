@@ -5,6 +5,7 @@ import Premios from "../../Componentes/Premios";
 import Points from "../../Componentes/Points";
 import PointsMobile from "../../Componentes/PointsMobile";
 import Invitation from "../../Componentes/Invitation";
+import Footer from "../../Componentes/Footer";
 
 export default function Home() {
   return (
@@ -40,6 +41,12 @@ export default function Home() {
       <div>
 
         <Invitation />
+
+      </div>
+
+      <div>
+
+        <Footer />
 
       </div>
       
