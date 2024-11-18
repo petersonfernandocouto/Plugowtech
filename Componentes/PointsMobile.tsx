@@ -22,7 +22,7 @@ const PointsMobile = () => {
 
     <div 
         style={{
-            backgroundImage: `url(${PointsBG.src})`,
+            backgroundImage:`url(${PointsBG.src})`,
             backgroundSize: "cover",
             backgroundPosition: "center 10%",
             backgroundRepeat: "no-repeat",
@@ -98,4 +98,4 @@ const PointsMobile = () => {
   )
 }
 
-export default PointsMobile
+export default PointsMobile

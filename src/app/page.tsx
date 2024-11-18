@@ -4,6 +4,7 @@ import Hero from "../../Componentes/Hero";
 import Premios from "../../Componentes/Premios";
 import Points from "../../Componentes/Points";
 import PointsMobile from "../../Componentes/PointsMobile";
+import Invitation from "../../Componentes/Invitation";
 
 export default function Home() {
   return (
@@ -34,6 +35,14 @@ export default function Home() {
         <PointsMobile />
 
       </div>
+
+
+      <div>
+
+        <Invitation />
+
+      </div>
+      
 
 
 
