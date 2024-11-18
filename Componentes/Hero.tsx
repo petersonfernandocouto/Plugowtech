@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="flex flex-col justify-evenly items-center w-full lg:mb-10">
           <div className="flex flex-col items-center lg:items-start lg:mt-10">
             <h1 className="text-3xl text-center px-1 lg:px-0 font-semibold lg:text-[64px] lg:w-[620px] lg:leading-none lg:text-start pb-7 font-['Audiowide']">
-              Transforme Suas Compras em <span className="text-[#4A90E2]">Recompensas</span>
+            Transforme suas parcerias em <span className="text-[#4A90E2]">Experiências</span>
             </h1>
             <p className="text-base lg:text-lg px-4 lg:px-0 text-center lg:w-[448px] lg:text-start pb-7">
               Funciona assim: a cada R$1 gasto, você ganha 1 ponto. Simples e vantajoso! Aproveite para acumular pontos e alcançar seus objetivos.

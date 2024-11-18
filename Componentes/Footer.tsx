@@ -10,7 +10,7 @@ const Footer = () => {
 
     <div className='bg-[#121212]'>
 
-    <div className='lg:flex lg:justify-evenly pt-10 lg:pt-20 '>
+    <div className='lg:flex lg:justify-evenly pt-10 lg:pt-20'>
 
         <div className='flex  gap-16'>
 
