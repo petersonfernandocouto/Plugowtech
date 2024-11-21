@@ -61,7 +61,7 @@ function Menu() {
         <Link className="hover:text-gray-300 py-2" href="/" onClick={() => closeMenuOnClick("#")}>Dashboard</Link>
         <Link className="hover:text-gray-300 py-2" href="/" onClick={() => closeMenuOnClick("#")}>Lojas</Link>
         <Link className="hover:text-gray-300 py-2" href="/" onClick={() => closeMenuOnClick("#")}>Cadastrar</Link>
-        <Link className="hover:text-gray-300 py-2" href="/" onClick={() => closeMenuOnClick("#")}>Sobre</Link>
+        <Link className="hover:text-gray-300 py-2" href="/login" onClick={() => closeMenuOnClick("#")}>Sobre</Link>
       </div>
     </div>
   );
