@@ -15,7 +15,7 @@ const Premios = () => {
         width: "100%",
         borderTopLeftRadius: '80px',
         borderTopRightRadius: '80px',
-        overflow: 'visible' // Alterando para 'visible' para permitir a invasão do elemento
+        overflow: 'visible'
       }}
     >
       <div

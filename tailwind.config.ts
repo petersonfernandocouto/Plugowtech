@@ -6,7 +6,8 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/Componentes/**/*.{js,ts,jsx,tsx,mdx}",
-    "./Componentes/**/*.{js,ts,jsx,tsx,mdx}"
+    "./Componentes/**/*.{js,ts,jsx,tsx,mdx}",
+    "./ComponenteAcelera/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
