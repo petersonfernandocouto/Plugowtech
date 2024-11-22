@@ -1,15 +1,14 @@
 import React from 'react'
-import InviIMG from '../IMG/InvitationBG.png'
+import Agencia from '../IMG/Agencia.png'
 
-const Invitation = () => {
+const Recompensas = () => {
   return (
-
     <div
 
       style={{
-        backgroundImage: `url(${InviIMG.src})`, 
+        backgroundImage: `url(${Agencia.src})`, 
         backgroundSize: 'cover', 
-        backgroundPosition: 'center', 
+        backgroundPosition: 'center 50%', 
         backgroundRepeat: 'no-repeat', 
         width: '100%',
         height: '100vh', 
@@ -17,6 +16,10 @@ const Invitation = () => {
         justifyContent: 'center', 
         alignItems: 'center', 
         padding: '50px 0', 
+        borderTopLeftRadius: "80px",
+        borderTopRightRadius: "80px",
+        borderBottomLeftRadius: "80px",
+        borderBottomRightRadius: "80px",
       }}
       
     >
@@ -48,4 +51,4 @@ const Invitation = () => {
   )
 }
 
-export default Invitation
+export default Recompensas
