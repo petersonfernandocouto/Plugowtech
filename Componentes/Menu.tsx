@@ -21,23 +21,17 @@ function Menu() {
   return (
     <div className="mt-0 pt-0">
       <nav className="flex justify-between items-center bg-[rgba(64,64,66,0.4)] py-4 lg:rounded-full px-0">
-        {/* Links de navegação para telas grandes */}
-        <div className="hidden lg:flex gap-[120px] lg:pl-20 md:pl-0">
-          <Link className="hover:text-gray-300 transition-colors duration-300" href="/">Home</Link>
-          <Link className="hover:text-gray-300 transition-colors duration-300" href="/">Prêmios</Link>
-          <Link className="hover:text-gray-300 transition-colors duration-300" href="/">Dashboard</Link>
-        </div>
 
         {/* Link centralizado (agora à esquerda) */}
-        <div className="text-2xl pl-4 lg:pl-0 font-bold text-white tracking-wider md:ml-4 md:mr-4">
-          <Link href="/">Plugowtech</Link>
+        <div className="text-2xl pl-4 lg:pl-4 font-bold text-white tracking-wider md:ml-4 md:mr-4">
+          <Link href="/">Partnership</Link>
         </div>
 
         {/* Links de navegação adicionais para telas grandes */}
         <div className="hidden lg:flex gap-[120px] lg:pr-20">
-          <Link className="hover:text-gray-300 transition-colors duration-300" href="/">Lojas</Link>
-          <Link className="hover:text-gray-300 transition-colors duration-300" href="/">Cadastrar</Link>
-          <Link className="hover:text-gray-300 transition-colors duration-300" href="/login">Sobre</Link>
+          <Link className="hover:text-gray-300 transition-colors duration-300" href="/">Home</Link>
+          <Link className="hover:text-gray-300 transition-colors duration-300" href="/">Prêmios</Link>
+          <Link className="hover:text-gray-300 transition-colors duration-300" href="/login">Acelera</Link>
 
         </div>
 
@@ -58,10 +52,7 @@ function Menu() {
       >
         <Link className="hover:text-gray-300 py-2" href="/" onClick={() => closeMenuOnClick("#")}>Home</Link>
         <Link className="hover:text-gray-300 py-2" href="/" onClick={() => closeMenuOnClick("#")}>Prêmios</Link>
-        <Link className="hover:text-gray-300 py-2" href="/" onClick={() => closeMenuOnClick("#")}>Dashboard</Link>
-        <Link className="hover:text-gray-300 py-2" href="/" onClick={() => closeMenuOnClick("#")}>Lojas</Link>
-        <Link className="hover:text-gray-300 py-2" href="/" onClick={() => closeMenuOnClick("#")}>Cadastrar</Link>
-        <Link className="hover:text-gray-300 py-2" href="/login" onClick={() => closeMenuOnClick("#")}>Sobre</Link>
+        <Link className="hover:text-gray-300 py-2" href="/login" onClick={() => closeMenuOnClick("#")}>Acelera</Link>
       </div>
     </div>
   );

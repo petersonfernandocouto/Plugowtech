@@ -5,6 +5,9 @@ import Sobre from "../../../ComponenteAcelera/Sobre";
 import Partnership from "../../../ComponenteAcelera/Partnership";
 import Footer from "../../../Componentes/Footer";
 import Recompensas from "../../../ComponenteAcelera/Recompensas";
+import PremiosAcelera from '../../../ComponenteAcelera/PremiosAcelera';
+
+//Alterar nome deste export
 
 export default function LoginPage() {
   return (
@@ -17,9 +20,15 @@ export default function LoginPage() {
 
               </div>
 
-              <div className="mb-9">
+              <div className="mb-1">
 
               <Partnership />
+
+              </div>
+
+              <div>
+
+                <PremiosAcelera />
 
               </div>
 
