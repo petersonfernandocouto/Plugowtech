@@ -68,3 +68,26 @@ body {
 }
 
 /*Scroll*/
+
+/*Carousel*/
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: calc(200%); /* Duplicamos o tamanho do contêiner */
+  animation: marquee 10s linear infinite;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+  width: 20%; /* Divida igualmente as imagens no espaço */
+
+}
+
