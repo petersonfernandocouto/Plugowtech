@@ -6,6 +6,7 @@ import Points from "../../Componentes/Points";
 import PointsMobile from "../../Componentes/PointsMobile";
 import Invitation from "../../Componentes/Invitation";
 import Footer from "../../Componentes/Footer";
+import Rewards from "../../Componentes/Rewards";
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
 
       </div>
 
+      <Rewards/>
 
       <div>
 
