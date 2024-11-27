@@ -6,15 +6,14 @@ import { FaTrophy } from 'react-icons/fa6';
 
 const Premios = () => {
   return (
-    <div
+    <div className='rounded-t-[30px] lg:rounded-t-[80px]'
       style={{
         backgroundImage: `url(${premios.src})`,
         backgroundSize: "cover",
         backgroundPosition: "center 10%",
         backgroundRepeat: "no-repeat",
         width: "100%",
-        borderTopLeftRadius: '80px',
-        borderTopRightRadius: '80px',
+        
         overflow: 'visible'
       }}
     >
@@ -22,7 +21,7 @@ const Premios = () => {
         id="Premios"
         className="bg-hero bg-cover flex flex-col items-center lg:flex-row lg:justify-evenly lg:items-end w-full"
       >
-        <div className="hidden lg:block relative -top-10 mb-[-40px] z-10"> 
+        <div className=" lg:block relative -top-10 mb-[-40px] z-10"> 
           <Image
             className="w-[1250px] h-[100%]"
             src={PremiosIMG}

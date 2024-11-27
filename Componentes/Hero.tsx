@@ -30,51 +30,52 @@ const Hero = () => {
         id="hero"
         className="bg-hero bg-cover flex flex-col items-center lg:flex-row lg:justify-evenly lg:items-end w-full"
       >
-        <div className="flex flex-col justify-evenly items-center w-full lg:mb-10">
+        <div className="flex flex-col justify-evenly items-center w-full lg:mb-10 2xl:mb-52">
           <div className="flex flex-col items-center lg:items-start lg:mt-10">
-            <h1 className="text-3xl text-center px-1 lg:px-0 font-semibold lg:text-[64px] lg:w-[620px] lg:leading-none lg:text-start pb-7 font-['Audiowide']">
+            <h1 className="text-[34px] text-center px-1 lg:px-0 font-semibold lg:text-[64px] 2xl:text-[68px] lg:w-[620px] leading-none lg:text-start pb-7 font-['Audiowide']">
             Transforme suas parcerias em <span className="text-[#4A90E2]">Experiências</span>
             </h1>
-            <p className="text-base lg:text-lg px-4 lg:px-0 text-center lg:w-[448px] lg:text-start pb-7">
+            <p className=" text-sm lg:text-lg 2xl:text-xl px-4 lg:px-0 text-center lg:w-[448px] lg:text-start pb-7">
               Funciona assim: a cada R$1 gasto, você ganha 1 ponto. Simples e vantajoso! Aproveite para acumular pontos e alcançar seus objetivos.
             </p>
-            <button className="bg-[#4A90E2] lg:hover:bg-[#1456a3] lg:w-[70%] w-[55%] h-[50px] rounded-[10px] justify-center items-center lg:mb-7 font-semibold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:shadow-[0px_8px_10px_-2px_rgba(74,144,226,0.4)]">
+            <button className="bg-[#4A90E2] lg:hover:bg-[#1456a3] lg:w-[70%] w-[95%] h-[50px] rounded-[10px] justify-center items-center lg:mb-7 font-semibold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:shadow-[0px_8px_10px_-2px_rgba(74,144,226,0.4)] ">
               Cadastre-se e Ganhe Pontos!
             </button>
           </div>
         </div>
 
-        <div className="flex bg-emerald-50 mt-5 lg:mt-0 lg:py-0 lg:bg-transparent flex-col lg:flex-row w-full justify-center items-center lg:items-end">
-          <div className="relative lg:flex md:w-[85%] hidden">
+        <div className="flex mt-5 lg:mt-0 lg:py-0 lg:bg-transparent flex-col lg:flex-row w-full justify-center items-center lg:items-end">
+          <div className="relative lg:flex md:w-[85%]  justify-end">
             <div
               ref={PontosRef}
-              className={`absolute top-5 left-[-70px] bg-[rgba(64,64,66,0.4)] w-fit px-4 py-2 rounded-full text-white font-bold mt-72 flex border border-white border-opacity-50 transition-all duration-1000 ${
+              className={`absolute top-5 lg:left-[-70px] 2xl:left-[300px] bg-[rgba(64,64,66,0.4)] w-fit px-4 py-2 rounded-full  font-bold mt-60 lg:mt-72 2xl:mt-[420px] flex border border-white border-opacity-50 transition-all duration-1000 ${
                 PontosInView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-full"
               }`}
             >
               <FaCheck className="text-[26px] pr-[10px]" />
-              Você ganhou +50 pontos!
+              <p className="text-[14px] lg:text-[16px]">Você ganhou +50 pontos!</p>
             </div>
 
             <div
               ref={PremiosRef}
-              className={`absolute top-16 right-1 bg-[rgba(64,64,66,0.4)] w-fit px-4 py-2 rounded-full font-bold mt-48 flex border border-white border-opacity-50 transition-all duration-1000 ${
+              className={`absolute top-16 right-1 2xl:right-[80px] bg-[rgba(64,64,66,0.4)] w-fit px-4 py-2 rounded-full font-bold mt-32 lg:mt-48 2xl:mt-[320px] flex border border-white border-opacity-50 transition-all duration-1000 ${
                 PremiosInView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-full"
               }`}
               style={{ transitionDelay: PremiosInView ? "1s" : "0s" }}
             >
               <FaMedal className="text-[26px] pr-[10px]" />
-              Prêmio disponível para troca!
+              <p className="text-[14px] lg:text-[16px]">Prêmio disponível para troca!</p>
             </div>
 
             <Image
-              className="w-[700px] h-[540px]"
+              className="w-[auto] h-[440px] lg:w-[700px] lg:h-[540px] 2xl:w-[900px] 2xl:h-[740px] "
               src={HeroIMG}
               width={0}
               height={0}
               alt="hero-img"
             />
           </div>
+          
         </div>
       </div>
     </div>
