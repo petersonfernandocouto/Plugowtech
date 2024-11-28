@@ -38,7 +38,7 @@ const Hero = () => {
             <p className=" text-sm lg:text-lg 2xl:text-xl px-4 lg:px-0 text-center lg:w-[448px] lg:text-start pb-7">
               Funciona assim: a cada R$1 gasto, você ganha 1 ponto. Simples e vantajoso! Aproveite para acumular pontos e alcançar seus objetivos.
             </p>
-            <button className="bg-[#4A90E2] lg:hover:bg-[#1456a3] lg:w-[70%] w-[95%] h-[50px] rounded-[10px] justify-center items-center lg:mb-7 font-semibold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:shadow-[0px_8px_10px_-2px_rgba(74,144,226,0.4)] ">
+            <button className="bg-[#4A90E2] lg:hover:bg-[#1456a3] lg:w-[70%] w-[95%] h-[50px] 2xl:w-[90%] 2xl:h-[60px] 2xl:text-2xl rounded-[10px] justify-center items-center lg:mb-7 font-semibold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:shadow-[0px_8px_10px_-2px_rgba(74,144,226,0.4)] ">
               Cadastre-se e Ganhe Pontos!
             </button>
           </div>
@@ -48,23 +48,23 @@ const Hero = () => {
           <div className="relative lg:flex md:w-[85%]  justify-end">
             <div
               ref={PontosRef}
-              className={`absolute top-5 lg:left-[-70px] 2xl:left-[300px] bg-[rgba(64,64,66,0.4)] w-fit px-4 py-2 rounded-full  font-bold mt-60 lg:mt-72 2xl:mt-[420px] flex border border-white border-opacity-50 transition-all duration-1000 ${
+              className={`absolute top-5 lg:left-[5px] 2xl:left-[300px] bg-[rgba(64,64,66,0.4)] w-fit px-4 lg:py-2 ml-1 lg:ml-0  py-1 rounded-full  font-bold mt-60 lg:mt-72 2xl:mt-[420px] flex border border-white border-opacity-50 transition-all duration-1000 ${
                 PontosInView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-full"
               }`}
             >
-              <FaCheck className="text-[26px] pr-[10px]" />
-              <p className="text-[14px] lg:text-[16px]">Você ganhou +50 pontos!</p>
+              <FaCheck className="text-[26px] pr-[10px] pb-1" />
+              <p className="text-[13px] pt-1 lg:pt-0 lg:text-[16px]">Você ganhou +50 pontos!</p>
             </div>
 
             <div
               ref={PremiosRef}
-              className={`absolute top-16 right-1 2xl:right-[80px] bg-[rgba(64,64,66,0.4)] w-fit px-4 py-2 rounded-full font-bold mt-32 lg:mt-48 2xl:mt-[320px] flex border border-white border-opacity-50 transition-all duration-1000 ${
+              className={`absolute top-16 right-1 lg:right-[-25px] 2xl:right-[80px] bg-[rgba(64,64,66,0.4)] w-fit px-4 lg:py-2 py-1 rounded-full font-bold mt-32 lg:mt-48 2xl:mt-[320px] mr-1 lg:mr-0 flex border border-white border-opacity-50 transition-all duration-1000 ${
                 PremiosInView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-full"
               }`}
               style={{ transitionDelay: PremiosInView ? "1s" : "0s" }}
             >
               <FaMedal className="text-[26px] pr-[10px]" />
-              <p className="text-[14px] lg:text-[16px]">Prêmio disponível para troca!</p>
+              <p className="text-[13px] pt-1 lg:pt-0 lg:text-[16px]">Prêmio disponível para troca!</p>
             </div>
 
             <Image
