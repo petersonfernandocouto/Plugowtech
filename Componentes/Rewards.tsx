@@ -58,7 +58,7 @@ const Rewards: React.FC = () => {
                                 <p className="text-2xl font-bold mb-12">A partir de</p>
 
                                 {/* Navegação por retangulos */}
-                                <div className="flex gap-2.5 mt-12">
+                                <div className="flex justify-between mt-12">
                                     {rewards.map((reward) => (
                                         <div key={reward.id} className="text-center">
                                             <div className={`mb-1 font-bold ${selectedReward === reward.id ? "visible" : "invisible"}`}>
@@ -66,7 +66,7 @@ const Rewards: React.FC = () => {
                                             </div>
                                             <div
                                                 onClick={() => setSelectedReward(reward.id)}
-                                                className={`w-38 h-[7px] ${selectedReward === reward.id ? "bg-[#4A90E2]" : "bg-gray-300"} cursor-pointer rounded-md mb-12`}
+                                                className={`w-40 h-[7px] ${selectedReward === reward.id ? "bg-[#4A90E2]" : "bg-gray-300"} cursor-pointer rounded-md mb-12`}
                                             />
                                         </div>
                                     ))}
