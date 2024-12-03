@@ -1,15 +1,15 @@
 import React from "react";
 
 
-import Quest from '../../plugowtech/IMG/Quest.jpg';
-import QMPode from '../../plugowtech/IMG/QMpode.jpg';
-import Pontos from '../../plugowtech/IMG/Pontos.jpg';
-import Validar from '../../plugowtech/IMG/Acompanhar.jpg'
-import Travel   from '../../plugowtech/IMG/Travel.jpg'
-import Register  from '../../plugowtech/IMG/Register.jpg'
-import Acompanhar from '../../plugowtech/IMG/Acompanhar.jpg'
-import Transferir from '../../plugowtech/IMG/Transfer.jpg'
-import Segurity from '../../plugowtech/IMG/security.jpg'
+import Quest from '../IMG/Quest.jpg';
+import QMPode from '../IMG/QMpode.jpg';
+import Pontos from '../IMG/Pontos.jpg';
+import Validar from '../IMG/Acompanhar.jpg'
+import Travel   from '../IMG/Travel.jpg'
+import Register  from '../IMG/Register.jpg'
+import Acompanhar from '../IMG/Acompanhar.jpg'
+import Transferir from '../IMG/Transfer.jpg'
+import Segurity from '../IMG/security.jpg'
 //import Tempo from '../../plugowtech/IMG/FAQIMG/Time.jpg'
 
 import Image from "next/image";
