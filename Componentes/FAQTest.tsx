@@ -1,11 +1,12 @@
 import React from "react";
 
 
-import Quest from '../../plugowtech/IMG/FAQIMG/Quest.jpg';
-import QMPode from '../../plugowtech/IMG/FAQIMG/QMpode.jpg';
-import Pontos from '../../plugowtech/IMG/FAQIMG/Pontos.jpg';
-import Validar from '../../plugowtech/IMG/FAQIMG/Acompanhar.jpg'
-import Travel   from '../../plugowtech/IMG/FAQIMG/Travel.jpg'
+//import Quest from '../../plugowtech/IMG/FAQIMG/Quest.jpg';
+//import QMPode from '../../plugowtech/IMG/FAQIMG/QMpode.jpg';
+//import Pontos from '../../plugowtech/IMG/FAQIMG/Pontos.jpg';
+//import Validar from '../../plugowtech/IMG/FAQIMG/Acompanhar.jpg'
+//import Travel   from '../../plugowtech/IMG/FAQIMG/Travel.jpg'
+
 import Register  from '../../plugowtech/IMG/FAQIMG/Register.jpg'
 import Acompanhar from '../../plugowtech/IMG/FAQIMG/Acompanhar.jpg'
 import Transferir from '../../plugowtech/IMG/FAQIMG/Transfer.jpg'
@@ -53,7 +54,7 @@ function FAQTest() {
           >
             <Image
               className="rounded-3xl w-[450px] lg:w-[560px] "
-              src={Quest}
+              src={Register}
               width={0}
               height={0}
               quality={100}
@@ -78,7 +79,7 @@ function FAQTest() {
           >
             <Image
               className="rounded-3xl w-[450px] lg:w-[560px] "
-              src={QMPode}
+              src={Acompanhar}
               width={0}
               height={0}
               quality={100}
@@ -105,7 +106,7 @@ function FAQTest() {
           >
             <Image
               className="rounded-3xl w-[450px] lg:w-[560px] "
-              src={Pontos}
+              src={Transferir}
               width={0}
               height={0}
               quality={100}
@@ -130,7 +131,7 @@ function FAQTest() {
           >
             <Image
               className="rounded-3xl w-[450px] lg:w-[560px] "
-              src={Validar}
+              src={Segurity}
               width={0}
               height={0}
               quality={100}
@@ -159,7 +160,7 @@ function FAQTest() {
           >
             <Image
               className="rounded-3xl w-[450px] lg:w-[560px] "
-              src={Travel}
+              src={Register}
               width={0}
               height={0}
               quality={100}
@@ -293,7 +294,7 @@ function FAQTest() {
           >
             <Image
               className="rounded-3xl w-[450px] lg:w-[560px] "
-              src={Validar}
+              src={Segurity}
               width={0}
               height={0}
               quality={100}
