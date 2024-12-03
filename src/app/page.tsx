@@ -7,6 +7,7 @@ import PointsMobile from "../../Componentes/PointsMobile";
 import Invitation from "../../Componentes/Invitation";
 import Footer from "../../Componentes/Footer";
 import Faq from "../../Componentes/Faq"
+//import FAQTest from "../../Componentes/FAQTest";
 
 export default function Home() {
   return (

@@ -81,13 +81,22 @@ body {
 
 .animate-marquee {
   display: flex;
-  width: calc(200%); /* Duplicamos o tamanho do contêiner */
+  width: calc(100%); 
   animation: marquee 10s linear infinite;
 }
 
 .flex-shrink-0 {
   flex-shrink: 0;
-  width: 20%; /* Divida igualmente as imagens no espaço */
+  width: 20%;
+  height: 300px; 
 
 }
 
+
+
+@media (min-width: 1024px) { /* Breakpoint lg */
+  .flex-shrink-0 {
+    width: 20%; /* Ajusta para telas lg ou maiores */
+    height: auto;
+  }
+}

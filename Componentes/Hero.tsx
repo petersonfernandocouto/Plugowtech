@@ -64,7 +64,7 @@ const Hero = () => {
               style={{ transitionDelay: PremiosInView ? "1s" : "0s" }}
             >
               <FaMedal className="text-[26px] pr-[10px]" />
-              <p className="text-[13px] pt-1 lg:pt-0 lg:text-[16px]">Prêmio disponível para troca!</p>
+              <p className="text-[13px] pt-1 lg:pt-0 lg:text-[16px]">Viagem disponível para troca!</p>
             </div>
 
             <Image
