@@ -37,7 +37,7 @@ const PremiosAcelera = () => {
           {[...images, ...images].map((image, index) => (
             <div key={index} className="flex-shrink-0">
               <Image
-                className=" h-[200px] w-[400px] lg:w-[200px]  lg:h-[250px] rounded-[40px] lg:mb-[200px]"
+                className=" h-[140px] w-[400px] lg:w-[200px]  lg:h-[250px] lg:rounded-[40px] lg:mb-[200px] 2xl:w-[350px] 2xl:h-[350px] "
                 src={image}
                 width={0}
                 height={0}

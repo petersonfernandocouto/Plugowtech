@@ -1,5 +1,5 @@
 import React from 'react'
-import PartBG from '../IMG/PartBG.png'
+import PartBG from '../IMG/MENPARTTWO.png'
 import Image from 'next/image';
 import MENPart from '../IMG/MENPART.png'
 
