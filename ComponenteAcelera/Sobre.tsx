@@ -46,7 +46,7 @@ const Sobre = () => {
             
 
             <Image
-              className="w-[auto] h-[440px] lg:w-[700px] lg:h-[540px]"
+              className="w-[auto] h-[440px] lg:w-[700px] lg:h-[540px] 2xl:w-[900px] 2xl:h-[740px]"
               src={SobreIMG}
               width={0}
               height={0}

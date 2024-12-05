@@ -75,7 +75,7 @@ const Footer = () => {
                 <ul className="flex gap-4 mt-4">
         
                         <a
-                            href=""
+                            href="https://api.whatsapp.com/send/?phone=5511986950878&text&type=phone_number&app_absent=0"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -84,7 +84,7 @@ const Footer = () => {
                             </li>
                         </a>
                         <a
-                            href=""
+                            href="https://www.instagram.com/osniwellington/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -94,7 +94,7 @@ const Footer = () => {
                         </a>
                         
                         <a
-                            href=""
+                            href="https://www.facebook.com/osni.wellington"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
