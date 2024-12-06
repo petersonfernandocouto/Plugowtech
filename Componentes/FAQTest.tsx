@@ -1,15 +1,16 @@
 import React from "react";
 
 
-import Quest from '../IMG/Quest.jpg';
-import QMPode from '../IMG/QMpode.jpg';
-import Pontos from '../IMG/Pontos.jpg';
-import Validar from '../IMG/Acompanhar.jpg'
-import Travel   from '../IMG/Travel.jpg'
-import Register  from '../IMG/Register.jpg'
-import Acompanhar from '../IMG/Acompanhar.jpg'
-import Transferir from '../IMG/Transfer.jpg'
-import Segurity from '../IMG/security.jpg'
+import Quest from '../IMG/FAQIMG/Quest_1.webp';
+import QMPode from '../IMG/FAQIMG/QMpode_1.webp';
+import Pontos from '../IMG/FAQIMG/Pontos_1.webp';
+import Validar from '../IMG/FAQIMG/Time_1.webp';
+import Travel   from '../IMG/FAQIMG/Travel_1.webp';
+import Register  from '../IMG/FAQIMG/Register_1.webp';
+import Acompanhar from '../IMG/FAQIMG/Acompanhar_1.webp';
+import Transferir from '../IMG/FAQIMG/Transfer_1.webp';
+import Segurity from '../IMG/FAQIMG/security_1.webp';
+import Regaste from '../IMG/FAQIMG/rewards_1.webp'
 //import Tempo from '../../plugowtech/IMG/FAQIMG/Time.jpg'
 
 import Image from "next/image";
@@ -41,8 +42,8 @@ function FAQTest() {
             Perguntas Frequentes
         </h1>
       </div>
-      <div className="flex flex-col gap-4">
-        <div className="flex flex-col gap-10 lg:flex-row px-4 lg:gap-20 lg:mt-12">
+      <div className="flex flex-col gap-4 ">
+        <div className="flex flex-col gap-10 lg:flex-row px-4 lg:gap-20 2xl:gap-40 lg:mt-12">
           <div
             ref={residentialRef}
             className={`flex flex-col items-center text-white lg:w-[500px] transition-all duration-1000  ${
@@ -52,7 +53,7 @@ function FAQTest() {
             } `}
           >
             <Image
-              className="rounded-3xl w-[450px] lg:w-[560px] "
+              className="rounded-3xl w-[450px] lg:w-[560px] lg:h-[300px] "
               src={Quest}
               width={0}
               height={0}
@@ -61,7 +62,7 @@ function FAQTest() {
             />
             <div className="flex flex-col items-start gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">O que é o PARTNERSHIP?</h3>
-              <p className="text-justify text-lg">
+              <p className=" text-lg">
               O PARTNERSHIP é um programa de fidelidade e recompensas criado para profissionais como arquitetos, engenheiros, designers, construtoras e consultores. Ele permite que você acumule pontos com suas compras em lojas parceiras e os troque por experiências exclusivas, como viagens, cruzeiros, workshops, entre outros benefícios.
               </p>
             </div>
@@ -77,7 +78,7 @@ function FAQTest() {
             style={{ transitionDelay: commercialInView ? "1s" : "0s" }} // nesta linha eu manipulo o delay. a div irá aparecer após 1 segundo em relação a div que vem antes
           >
             <Image
-              className="rounded-3xl w-[450px] lg:w-[560px] "
+              className="rounded-3xl w-[450px] lg:w-[560px] lg:h-[300px]"
               src={QMPode}
               width={0}
               height={0}
@@ -86,14 +87,14 @@ function FAQTest() {
             />
             <div className="flex flex-col gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">Quem pode participar do programa?</h3>
-              <p className="text-justify text-lg">
+              <p className=" text-lg">
               Podem participar profissionais (como arquitetos, engenheiros e designers) e consultores que indicam projetos para lojas parceiras. Ambos acumulam pontos e têm acesso às recompensas do programa.
               </p>
             </div>
           </div>
         </div>
 
-        <div className="flex flex-col gap-10 lg:flex-row px-4 lg:gap-20 lg:mt-12">
+        <div className="flex flex-col gap-10 lg:flex-row px-4 lg:gap-20 2xl:gap-40 lg:mt-12">
           <div
             ref={deepRef}
             className={`flex flex-col items-center text-white lg:w-[500px] transition-all duration-1000  ${
@@ -104,7 +105,7 @@ function FAQTest() {
             style={{ transitionDelay: deepInView ? "1s" : "0s" }}
           >
             <Image
-              className="rounded-3xl w-[450px] lg:w-[560px] "
+              className="rounded-3xl w-[450px] lg:w-[560px] lg:h-[300px]"
               src={Pontos}
               width={0}
               height={0}
@@ -113,7 +114,7 @@ function FAQTest() {
             />
             <div className="flex flex-col items-start gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">Como acumulo pontos?</h3>
-              <p className="text-justify text-lg">
+              <p className="text-lg">
               Você acumula pontos ao realizar compras nas lojas parceiras. Profissionais: Ganham 1 ponto para cada R$1,00 gasto. Consultores: Ganham 0,5 ponto para cada R$1,00 gasto.
               </p>
             </div>
@@ -129,7 +130,7 @@ function FAQTest() {
             style={{ transitionDelay: WindowCleInView ? "1.5s" : "0s" }}
           >
             <Image
-              className="rounded-3xl w-[450px] lg:w-[560px] "
+              className="rounded-3xl w-[450px] lg:w-[560px] lg:h-[300px]"
               src={Validar}
               width={0}
               height={0}
@@ -138,7 +139,7 @@ function FAQTest() {
             />
             <div className="flex flex-col gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">Por quanto tempo posso acumular pontos?</h3>
-              <p className="text-justify text-lg">
+              <p className=" text-lg">
               Os pontos podem ser acumulados por até 18 meses, a partir da data em que foram gerados.
               </p>
             </div>
@@ -147,7 +148,7 @@ function FAQTest() {
 
         </div>
             
-        <div className="flex flex-col gap-10 lg:flex-row px-4 lg:gap-20 lg:mt-12">
+        <div className="flex flex-col gap-10 lg:flex-row px-4 lg:gap-20 2xl:gap-40 lg:mt-12">
           <div
             ref={QuintoRef}
             className={`flex flex-col items-center text-white lg:w-[500px] transition-all duration-1000  ${
@@ -158,7 +159,7 @@ function FAQTest() {
             style={{ transitionDelay: QuintoInView ? "1s" : "0s" }}
           >
             <Image
-              className="rounded-3xl w-[450px] lg:w-[560px] "
+              className="rounded-3xl w-[450px] lg:w-[560px] lg:h-[300px]"
               src={Travel}
               width={0}
               height={0}
@@ -167,7 +168,7 @@ function FAQTest() {
             />
             <div className="flex flex-col items-start gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">Quais tipos de recompensas posso resgatar?</h3>
-              <p className="text-justify text-lg">
+              <p className="text-lg">
               O PARTNERSHIP oferece um catálogo exclusivo de recompensas, incluindo:Viagens nacionais, internacionais, Cruzeiros, Workshops e Promoções especiais em lojas parceiras
               </p>
             </div>
@@ -183,7 +184,7 @@ function FAQTest() {
             style={{ transitionDelay: SextoInView ? "1.5s" : "0s" }}
           >
             <Image
-              className="rounded-3xl w-[450px] lg:w-[560px] "
+              className="rounded-3xl w-[450px] lg:w-[560px] lg:h-[300px]"
               src={Register}
               width={0}
               height={0}
@@ -192,7 +193,7 @@ function FAQTest() {
             />
             <div className="flex flex-col gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">Como faço meu cadastro no programa?</h3>
-              <p className="text-justify text-lg">
+              <p className=" text-lg">
               Você pode se cadastrar diretamente pelo site ou aplicativo do PARTNERSHIP. O processo é simples e rápido, exigindo apenas o preenchimento de um formulário online.
               </p>
             </div>
@@ -202,7 +203,7 @@ function FAQTest() {
           
         </div>
 
-        <div className="flex flex-col gap-10 lg:flex-row px-4 lg:gap-20 lg:mt-12">
+        <div className="flex flex-col gap-10 lg:flex-row px-4 lg:gap-20 2xl:gap-40 lg:mt-12">
           <div
             ref={SetimoRef}
             className={`flex flex-col items-center text-white lg:w-[500px] transition-all duration-1000  ${
@@ -213,7 +214,7 @@ function FAQTest() {
             style={{ transitionDelay: SetimoView ? "1s" : "0s" }}
           >
             <Image
-              className="rounded-3xl w-[450px] lg:w-[560px] "
+              className="rounded-3xl w-[450px] lg:w-[560px] lg:h-[300px]"
               src={Acompanhar}
               width={0}
               height={0}
@@ -222,7 +223,7 @@ function FAQTest() {
             />
             <div className="flex flex-col items-start gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">Como acompanho meus pontos e resgates?</h3>
-              <p className="text-justify text-lg">
+              <p className=" text-lg">
               Você pode acompanhar o saldo de pontos, histórico de resgates e níveis de fidelidade no painel do site ou aplicativo do PARTNERSHIP. Além disso, notificações e campanhas personalizadas são enviadas por e-mail ou WhatsApp.
               </p>
             </div>
@@ -238,7 +239,7 @@ function FAQTest() {
             style={{ transitionDelay: OitavoCleInView ? "1.5s" : "0s" }}
           >
             <Image
-              className="rounded-3xl w-[450px] lg:w-[560px] "
+              className="rounded-3xl w-[450px] lg:w-[560px] lg:h-[300px]"
               src={Transferir}
               width={0}
               height={0}
@@ -247,7 +248,7 @@ function FAQTest() {
             />
             <div className="flex flex-col gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">É possível transferir meus pontos para outra pessoa?</h3>
-              <p className="text-justify text-lg">
+              <p className=" text-lg">
                  Os pontos acumulados são pessoais e intransferíveis. Apenas o titular da conta pode utilizá-los para resgatar recompensas.
               </p>
             </div>
@@ -256,7 +257,7 @@ function FAQTest() {
           
         </div>
 
-        <div className="flex flex-col gap-10 lg:flex-row px-4 lg:gap-20 lg:mt-12">
+        <div className="flex flex-col gap-10 lg:flex-row px-4 lg:gap-20 2xl:gap-40 lg:mt-12">
           <div
             ref={NonoRef}
             className={`flex flex-col items-center text-white lg:w-[500px] transition-all duration-1000  ${
@@ -267,7 +268,7 @@ function FAQTest() {
             style={{ transitionDelay: NonoInView ? "1s" : "0s" }}
           >
             <Image
-              className="rounded-3xl w-[450px] lg:w-[560px] "
+              className="rounded-3xl w-[450px] lg:w-[560px] lg:h-[300px]"
               src={Segurity}
               width={0}
               height={0}
@@ -276,7 +277,7 @@ function FAQTest() {
             />
             <div className="flex flex-col items-start gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">É seguro usar o PARTNERSHIP?</h3>
-              <p className="text-justify text-lg">
+              <p className=" text-lg">
               Sim! O PARTNERSHIP utiliza tecnologia avançada de criptografia para proteger seus dados e segue rigorosos controles de acesso. Você pode confiar na segurança do sistema para gerenciar seus pontos e recompensas.
               </p>
             </div>
@@ -292,8 +293,8 @@ function FAQTest() {
             style={{ transitionDelay: DecimoCleInView ? "1.5s" : "0s" }}
           >
             <Image
-              className="rounded-3xl w-[450px] lg:w-[560px] "
-              src={Validar}
+              className="rounded-3xl w-[450px] lg:w-[560px] lg:h-[300px]"
+              src={Regaste}
               width={0}
               height={0}
               quality={100}
@@ -301,7 +302,7 @@ function FAQTest() {
             />
             <div className="flex flex-col gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">Como faço para resgatar minhas recompensas?</h3>
-              <p className="text-justify text-lg">
+              <p className="text-lg">
               Você pode acessar o catálogo de recompensas pelo site, escolher a experiência desejada e confirmar o resgate. O processo é simples e totalmente online.
               </p>
             </div>
