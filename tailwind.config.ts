@@ -11,6 +11,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        '3xl': '2500px', // Breakpoint customizado para 1920px
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

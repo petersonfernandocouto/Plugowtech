@@ -21,7 +21,7 @@ const Recompensas = () => {
       
     >
 
-                      <div className='flex flex-col justify-evenly items-center border py-10 px-5 rounded-[50px] bg-[rgba(3,3,3,0.8)] mx-4 2xl:w-[35%]'>
+                      <div className='flex flex-col justify-evenly items-center border py-10 px-5 rounded-[50px] bg-[rgba(3,3,3,0.8)] mx-4 2xl:w-[55%]'>
 
                       <div className="flex flex-col items-center">
                       <h1 className="text-3xl text-center px-1 font-semibold lg:text-[54px] 2xl:text-[58px] lg:w-[620px] lg:leading-none font-['Audiowide']">

@@ -48,7 +48,7 @@ const Hero = () => {
           <div className="relative lg:flex md:w-[85%]  justify-end">
             <div
               ref={PontosRef}
-              className={`absolute top-5 lg:left-[5px] 2xl:left-[300px] bg-[rgba(64,64,66,0.4)] w-fit px-4 lg:py-2 ml-1 lg:ml-0  py-1 rounded-full  font-bold mt-60 lg:mt-72 2xl:mt-[420px] flex border border-white border-opacity-50 transition-all duration-1000 ${
+              className={`absolute top-5 lg:left-[5px] 2xl:left-[100px] 3xl:left-[300px] bg-[rgba(64,64,66,0.4)] w-fit px-4 lg:py-2 ml-1 lg:ml-0  py-1 rounded-full  font-bold mt-60 lg:mt-72 2xl:mt-[420px] flex border border-white border-opacity-50 transition-all duration-1000 ${
                 PontosInView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-full"
               }`}
             >
