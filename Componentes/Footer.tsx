@@ -20,9 +20,9 @@ const Footer = () => {
 
                 <div className='mt-4'>
                     <ul className="list-disc list-inside">
-                        <li><Link className="hover:text-gray-300 transition-colors duration-300" href="/">Sobre Nós</Link></li>
-                        <li><Link className="hover:text-gray-300 transition-colors duration-300" href="/">Termos de Uso</Link></li>
-                        <li><Link className="hover:text-gray-300 transition-colors duration-300" href="/">Política de Privacidade</Link></li>                        
+                        <li><Link className="hover:text-gray-300 transition-colors duration-300" href="/">Inicio</Link></li>
+                        <li><Link className="hover:text-gray-300 transition-colors duration-300" href="/">Prêmios</Link></li>
+                        <li><Link className="hover:text-gray-300 transition-colors duration-300" href="/">Acelera</Link></li>                        
                     </ul>
                 </div>
 
@@ -38,8 +38,7 @@ const Footer = () => {
                 <div className='mt-4'>
                     <ul className="list-disc list-inside">
                         <li><Link className="hover:text-gray-300 transition-colors duration-300" href="/">FAQ / Ajuda</Link></li>
-                        <li><Link className="hover:text-gray-300 transition-colors duration-300" href="/">Contato</Link></li>
-                        <li><Link className="hover:text-gray-300 transition-colors duration-300" href="/">Histórico de pontos</Link></li>                        
+                        <li><Link className="hover:text-gray-300 transition-colors duration-300" href="/">Contato</Link></li>                        
                     </ul>
                 </div>
                 
@@ -48,26 +47,8 @@ const Footer = () => {
         
         <div className='flex gap-16 mt-10 lg:mt-0'>
 
-            <div className='pl-5 lg:pl-0'>
 
-                <h1 className='text-[20px] font-bold border-b-2 border-b-[#4A90E2] w-[60px] whitespace-nowrap'>Links úteis</h1>
-
-                
-                <div className='mt-4'>
-                    <ul className="list-disc list-inside">
-                        <li><Link className="hover:text-gray-300 transition-colors duration-300" href="/">Home</Link></li>
-                        <li><Link className="hover:text-gray-300 transition-colors duration-300" href="/">Catálogo de Prêmios</Link></li>
-                        <li><Link className="hover:text-gray-300 transition-colors duration-300" href="/">Lojas Parceiras</Link></li>
-                        <li><Link className="hover:text-gray-300 transition-colors duration-300" href="/">Contato</Link></li>                     
-                    </ul>
-                </div>
-                
-
-            </div>
-
-
-
-            <div>
+            <div className='pl-5'>
 
                 <h1 className='text-[20px] font-bold border-b-2 border-b-[#4A90E2] w-[60px] whitespace-nowrap'>Siga-nos</h1>
 
