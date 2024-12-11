@@ -11,7 +11,7 @@ import Acompanhar from '../IMG/FAQIMG/Acompanhar_1.webp';
 import Transferir from '../IMG/FAQIMG/Transfer_1.webp';
 import Segurity from '../IMG/FAQIMG/security_1.webp';
 import Regaste from '../IMG/FAQIMG/rewards_1.webp'
-//import Tempo from '../../plugowtech/IMG/FAQIMG/Time.jpg'
+
 
 import Image from "next/image";
 
