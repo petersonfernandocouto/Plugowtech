@@ -11,7 +11,7 @@ import Acompanhar from '../IMG/FAQIMG/Acompanhar_1.webp';
 import Transferir from '../IMG/FAQIMG/Transfer_1.webp';
 import Segurity from '../IMG/FAQIMG/security_1.webp';
 import Regaste from '../IMG/FAQIMG/rewards_1.webp'
-
+import Menu from "./Menu";
 
 import Image from "next/image";
 
@@ -35,7 +35,20 @@ function FAQTest() {
 
 
   return (
+
+    <div>
+
+
+          <div className="lg:pt-7 lg:w-[95%] mx-auto">
+                  <Menu />
+          </div>
+
+    
+
     <div className="flex flex-col justify-around items-center w-full  bg-cover lg:pt-10 pb-20">
+
+      
+
       <div className="flex flex-col items-center w-full  mt-10 mb-10 lg:mb-0 ">
 
         <h1 className="text-center text-[34px] font-semibold py-5 px-1 lg:px-0 lg:text-[44px] 2xl:text-[68px] font-['Audiowide'] ">
@@ -317,7 +330,9 @@ function FAQTest() {
 
       </div>
     </div>
+
+    </div>
   );
 }
 
-export default FAQTest;
+export default FAQTest;
