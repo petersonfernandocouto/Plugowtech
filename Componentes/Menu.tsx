@@ -19,14 +19,14 @@ function Menu() {
 
   return (
     <div className="mt-0 pt-0">
-      <nav className="flex justify-between items-center bg-[rgba(64,64,66,0.4)] py-4 lg:rounded-full px-0  2xl:w-[90%] mx-auto">
+      <nav className="flex justify-between items-center bg-[rgba(64,64,66,0.4)] py-4 lg:rounded-full px-0  2xl:w-[90%] lg:h-[80px] mx-auto">
         
         <div className="text-2xl pl-4 lg:pl-4 font-bold text-white tracking-wider md:ml-4 md:mr-4">
           <Link href="/">Partnership</Link>
         </div>
 
         
-        <div className="hidden lg:flex gap-[120px] lg:pr-20">
+        <div className="hidden lg:flex gap-[120px] lg:text-[18px] lg:pr-20">
           <Link
             className="hover:text-gray-300 transition-colors duration-300"
             href="/"
@@ -35,15 +35,15 @@ function Menu() {
           </Link>
           <Link
             className="hover:text-gray-300 transition-colors duration-300"
-            href="/"
+            href="/login"
           >
-            Prêmios
+            Acelera
           </Link>
           <Link
             className="hover:text-gray-300 transition-colors duration-300"
             href="/login"
           >
-            Acelera
+            Perguntas Frequentes
           </Link>
         </div>
 
