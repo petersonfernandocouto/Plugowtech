@@ -7,7 +7,7 @@ import PointsMobile from "../../Componentes/PointsMobile";
 import Invitation from "../../Componentes/Invitation";
 import Footer from "../../Componentes/Footer";
 //import Faq from "../../Componentes/Faq"
-import FAQTest from "../../Componentes/FAQTest";
+
 import { useInView } from "react-intersection-observer";
 
 export default function Home() {
@@ -17,10 +17,11 @@ export default function Home() {
   const { ref: PointsRef, inView: PointsInView } = useInView({triggerOnce: true,});
   const { ref: PointsMobileRef, inView: PointsMobileInView } = useInView({triggerOnce: true,});
   const { ref: InvitationRef, inView: InvitationInView } = useInView({triggerOnce: true,});
-  const { ref: FAQTestRef, inView: FAQTestInView } = useInView({triggerOnce: true,});
+
   const { ref: FooterRef, inView: FooterInView } = useInView({triggerOnce: true,});
 
   return (
+
     <>
 
       
@@ -80,21 +81,7 @@ export default function Home() {
 
         <Invitation />
 
-      </div>
-
-      <div
-      
-        id="FAQTest"
-        ref={FAQTestRef}
-        className={`transition-all duration-1000 ease-out ${
-          FAQTestInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
-        }`}
-
-      >
-
-        <FAQTest />
-
-      </div>
+      </div>     
 
       <div 
       

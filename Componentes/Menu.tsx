@@ -41,7 +41,7 @@ function Menu() {
           </Link>
           <Link
             className="hover:text-gray-300 transition-colors duration-300"
-            href="/login"
+            href="/FAQ"
           >
             Perguntas Frequentes
           </Link>
@@ -75,17 +75,17 @@ function Menu() {
         </Link>
         <Link
           className="hover:text-gray-300 py-2"
-          href="/"
-          onClick={() => closeMenuOnClick("#")}
-        >
-          Prêmios
-        </Link>
-        <Link
-          className="hover:text-gray-300 py-2"
           href="/login"
           onClick={() => closeMenuOnClick("#")}
         >
           Acelera
+        </Link>
+        <Link
+          className="hover:text-gray-300 py-2"
+          href="/FAQ"
+          onClick={() => closeMenuOnClick("#")}
+        >
+          Perguntas Frequentes
         </Link>
       </div>
     </div>
