@@ -26,7 +26,7 @@ const PremiosAcelera = () => {
       }}
       className="flex flex-col items-center overflow-hidden"
     >
-      <h1 className="text-[30px] text-center lg:text-[45px] 2xl:text-[60px] font-semibold font-[Audiowide] mb-[80px]">
+      <h1 className="text-[30px] text-center lg:text-[45px] 2xl:text-[60px] font-semibold font-[Quantico] mb-[80px]">
         Descubra os prêmios incríveis do <span className="text-[#4A90E2]">Acelera</span>
       </h1>
 
@@ -48,7 +48,7 @@ const PremiosAcelera = () => {
         </div>
       </div>
 
-      <p className="font-semibold font-[Audiowide] text-center max-w-[600px] mx-auto mt-5 leading-relaxed">
+      <p className="font-semibold font-[Quantico] text-center max-w-[600px] mx-auto mt-5 leading-relaxed">
         Fique atento às próximas campanhas. As campanhas do Acelera Partnership são por tempo limitado. 
         Não perca a chance de participar da próxima experiência exclusiva.
       </p>

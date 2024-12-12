@@ -32,14 +32,14 @@ const Hero = () => {
       >
         <div className="flex flex-col justify-evenly items-center w-full lg:mb-10 2xl:mb-52">
           <div className="flex flex-col items-center lg:items-start lg:mt-10">
-            <h1 className="text-[34px] text-center px-1 lg:px-0 font-semibold lg:text-[64px] 2xl:text-[68px] lg:w-[620px] leading-none lg:text-start pb-7 font-['Audiowide']">
-            Transforme suas parcerias em <span className="text-[#4A90E2]">Experiências</span>
+            <h1 className="text-[34px] text-center px-1 lg:px-0 font-semibold lg:text-[64px] 2xl:text-[68px] lg:w-[620px] leading-none lg:text-start pb-7 font-['Quantico']">
+            Transforme suas parcerias em <span className="text-[#4A90E2]">experiências</span>
             </h1>
             <p className=" text-sm lg:text-lg 2xl:text-xl px-4 lg:px-0 text-center lg:w-[448px] lg:text-start pb-7">
               Funciona assim: a cada R$1 gasto, você ganha 1 ponto. Simples e vantajoso! Aproveite para acumular pontos e alcançar seus objetivos.
             </p>
             <button className="bg-[#4A90E2] lg:hover:bg-[#1456a3] lg:w-[70%] w-[95%] h-[50px] 2xl:w-[90%] 2xl:h-[60px] 2xl:text-2xl rounded-[10px] justify-center items-center lg:mb-7 font-semibold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:shadow-[0px_8px_10px_-2px_rgba(74,144,226,0.4)] ">
-              Cadastre-se e Ganhe Pontos!
+              Cadastre-se e ganhe pontos!
             </button>
           </div>
         </div>
