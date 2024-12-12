@@ -21,10 +21,10 @@ const Invitation = () => {
             <div className='flex flex-col justify-evenly items-center border py-10 px-5 rounded-[50px] bg-[rgba(3,3,3,0.8)] mx-4 2xl:w-[55%]'>
 
                     <div className="flex flex-col items-center">
-                    <h1 className="text-3xl text-center px-1 font-semibold lg:text-[54px] 2xl:text-[58px] lg:w-[620px] lg:leading-none font-['Audiowide']">
-                      Entre para o Clube de 
-                      <span className="text-[#4A90E2] text-3xl text-center font-semibold lg:text-[54px] lg:w-[620px]  font-['Audiowide'] pl-[10px]">
-                       Recompensas!
+                    <h1 className="text-3xl text-center px-1 font-semibold lg:text-[54px] 2xl:text-[58px] lg:w-[620px] lg:leading-none font-['Quantico']">
+                      Entre para o clube de 
+                      <span className="text-[#4A90E2] text-3xl text-center font-semibold lg:text-[54px] lg:w-[620px]  font-['Quantico'] pl-[10px]">
+                       recompensas!
                     </span>
                     </h1>
               
@@ -33,7 +33,7 @@ const Invitation = () => {
                       para trocar por prêmios incríveis!
                     </p>
                     <button className="bg-[#4A90E2] lg:hover:bg-[#1456a3] w-[70%] h-[50px] 2xl:w-[90%] 2xl:h-[60px] 2xl:text-2xl rounded-[10px] justify-center items-center font-semibold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:shadow-[0px_8px_10px_-2px_rgba(74,144,226,0.4)] flex">
-                       Cadastre-se Agora
+                       Cadastre-se agora!
                     </button>
                   </div>
 
