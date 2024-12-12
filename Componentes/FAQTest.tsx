@@ -51,7 +51,7 @@ function FAQTest() {
 
       <div className="flex flex-col items-center w-full  mt-10 mb-10 lg:mb-0 ">
 
-        <h1 className="text-center text-[34px] font-semibold py-5 px-1 lg:px-0 lg:text-[44px] 2xl:text-[68px] font-['Audiowide'] ">
+        <h1 className="text-center text-[34px] font-semibold py-5 px-1 lg:px-0 lg:text-[44px] 2xl:text-[68px] font-['Quantico'] ">
             Perguntas Frequentes
         </h1>
       </div>

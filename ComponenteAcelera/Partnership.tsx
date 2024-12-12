@@ -6,7 +6,7 @@ import MENPart from '../IMG/MENPART.png'
 const Partnership = () => {
   return (
     <div
-      className="shadow-[0px_0px_60px_10px_rgba(74,144,226,0.5)] flex items-center"
+      className="shadow-[inset_0px_2px_20px_0px_rgba(74,144,226,1)] flex items-center"
       style={{
         backgroundImage: `url(${PartBG.src})`,
         backgroundSize: "cover",
@@ -25,7 +25,7 @@ const Partnership = () => {
       <div className="flex flex-col lg:flex-row items-center lg:items-center w-full max-w-6xl mx-auto gap-10">
         
         <Image
-          className="w-[300px] lg:w-[450px] h-auto rounded-[50px] shadow-[0px_0px_60px_10px_rgba(255,255,255,0.5)]"
+          className="w-[300px] lg:w-[450px] h-auto rounded-[50px] shadow-[5px_5px_0px_0px_rgba(74,144,226,1)]"
           src={MENPart}
           width={0}
           height={0}
@@ -34,7 +34,7 @@ const Partnership = () => {
 
         
         <div className="flex flex-col items-center lg:items-start text-center lg:text-left lg:ml-[70px]">
-          <h1 className="text-3xl font-semibold font-['Audiowide'] mb-10 lg:mb-20">
+          <h1 className="text-3xl font-semibold font-['Quantico'] mb-10 lg:mb-20">
             O que é o <br></br> Acelera Partnership?
           </h1>
           <p className="text-base lg:text-lg px-4 lg:px-0 font-bold mb-20">

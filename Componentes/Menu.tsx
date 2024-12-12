@@ -26,7 +26,7 @@ function Menu() {
         </div>
 
         
-        <div className="hidden lg:flex gap-[120px] lg:text-[18px] lg:pr-20">
+        <div className="hidden lg:flex gap-[50px] lg:text-[18px] lg:pr-20 font-bold">
           <Link
             className="hover:text-gray-300 transition-colors duration-300"
             href="/"
