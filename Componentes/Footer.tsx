@@ -28,6 +28,7 @@ const Footer = () => {
                   <Link
                     className="hover:text-gray-300 transition-colors duration-300"
                     href="/login"
+                     
                   >
                     Acelera
                   </Link>
@@ -54,7 +55,8 @@ const Footer = () => {
                 <li>
                   <Link
                     className="hover:text-gray-300 transition-colors duration-300"
-                    href="/"
+                    href="https://api.whatsapp.com/send/?phone=%2B5511986950878&text&type=phone_number&app_absent=0"
+                    target="_blank"
                   >
                     Contato
                   </Link>
