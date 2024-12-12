@@ -9,6 +9,7 @@ import Footer from "../../Componentes/Footer";
 import Loader from "../../Componentes/Loader";
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
+import Rewards from "../../Componentes/Rewards";
 
 export default function Home() {
   const { ref: PremiosRef, inView: PremiosInView } = useInView({
@@ -76,7 +77,9 @@ export default function Home() {
       >
         <PointsMobile />
       </div>
-
+      <div>
+        <Rewards/>
+      </div>
       <div
         id="InvitationSection"
         ref={InvitationRef}
