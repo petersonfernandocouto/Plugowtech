@@ -6,13 +6,9 @@ import Points from "../../Componentes/Points";
 import PointsMobile from "../../Componentes/PointsMobile";
 import Invitation from "../../Componentes/Invitation";
 import Footer from "../../Componentes/Footer";
-<<<<<<< HEAD
-import Rewards from "../../Componentes/Rewards";
-=======
-//import Faq from "../../Componentes/Faq"
+import Rewards from "../../Componentes/Rewards";  // Linha de Rewards corrigida
 
 import { useInView } from "react-intersection-observer";
->>>>>>> bb40dc83713e7d9245c22d992e671b0e729634fc
 
 export default function Home() {
   const { ref: PremiosRef, inView: PremiosInView } = useInView({
@@ -74,12 +70,8 @@ export default function Home() {
         <PointsMobile />
       </div>
 
-<<<<<<< HEAD
-      <Rewards/>
+      <Rewards />
 
-      <div>
-
-=======
       <div
         id="Invitation"
         ref={InvitationRef}
@@ -89,7 +81,6 @@ export default function Home() {
             : "opacity-0 translate-y-20"
         }`}
       >
->>>>>>> bb40dc83713e7d9245c22d992e671b0e729634fc
         <Invitation />
       </div>
 
