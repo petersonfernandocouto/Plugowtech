@@ -7,26 +7,44 @@ import PointsMobile from "../../Componentes/PointsMobile";
 import Invitation from "../../Componentes/Invitation";
 import Footer from "../../Componentes/Footer";
 //import Faq from "../../Componentes/Faq"
+import Loader from "../../Componentes/Loader";
+import { useEffect, useState } from "react";
 
 import { useInView } from "react-intersection-observer";
 
 export default function Home() {
-  const { ref: PremiosRef, inView: PremiosInView } = useInView({
-    triggerOnce: true,
-  });
-  const { ref: PointsRef, inView: PointsInView } = useInView({
-    triggerOnce: true,
-  });
-  const { ref: PointsMobileRef, inView: PointsMobileInView } = useInView({
-    triggerOnce: true,
-  });
-  const { ref: InvitationRef, inView: InvitationInView } = useInView({
-    triggerOnce: true,
-  });
+        const { ref: PremiosRef, inView: PremiosInView } = useInView({
+          triggerOnce: true,
+        });
+        const { ref: PointsRef, inView: PointsInView } = useInView({
+          triggerOnce: true,
+        });
+        const { ref: PointsMobileRef, inView: PointsMobileInView } = useInView({
+          triggerOnce: true,
+        });
+        const { ref: InvitationRef, inView: InvitationInView } = useInView({
+          triggerOnce: true,
+        });
 
-  const { ref: FooterRef, inView: FooterInView } = useInView({
-    triggerOnce: true,
-  });
+        const { ref: FooterRef, inView: FooterInView } = useInView({
+          triggerOnce: true,
+        });
+
+
+        const [isLoading, setIsLoading] = useState(true);
+
+        useEffect(() => {
+          // Aqui estou simulando um atraso no carregamento para exibir o loader
+          const timer = setTimeout(() => {
+            setIsLoading(false);
+          }, 2000); // tempo de 2 segundos de espera
+
+          return () => clearTimeout(timer);
+        }, []);
+
+        if (isLoading) {
+          return <Loader />;
+        }
 
   return (
     <>
