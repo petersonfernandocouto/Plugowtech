@@ -28,12 +28,38 @@ export default function Home() {
     triggerOnce: true,
   });
 
+  const { ref: PremiosRef, inView: PremiosInView } = useInView({
+    triggerOnce: true,
+  });
+  const { ref: PointsRef, inView: PointsInView } = useInView({
+    triggerOnce: true,
+  });
+  const { ref: PointsMobileRef, inView: PointsMobileInView } = useInView({
+    triggerOnce: true,
+  });
+  const { ref: InvitationRef, inView: InvitationInView } = useInView({
+    triggerOnce: true,
+  });
+
+  const { ref: FooterRef, inView: FooterInView } = useInView({
+    triggerOnce: true,
+  });
+
   return (
     <>
       <div>
         <Hero />
       </div>
 
+      <div
+        id="Premios"
+        ref={PremiosRef}
+        className={`transition-all duration-1000 ease-out ${
+          PremiosInView
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 translate-y-20"
+        }`}
+      >
       <div
         id="Premios"
         ref={PremiosRef}
@@ -55,9 +81,27 @@ export default function Home() {
             : "opacity-0 translate-y-20"
         }`}
       >
+      <div
+        id="Points"
+        ref={PointsRef}
+        className={`transition-all duration-1000 ease-out hidden lg:block ${
+          PointsInView
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 translate-y-20"
+        }`}
+      >
         <Points />
       </div>
 
+      <div
+        id="PointsMobile"
+        ref={PointsMobileRef}
+        className={`transition-all duration-1000 ease-out lg:hidden ${
+          PointsMobileInView
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 translate-y-20"
+        }`}
+      >
       <div
         id="PointsMobile"
         ref={PointsMobileRef}
@@ -82,6 +126,15 @@ export default function Home() {
         <Invitation />
       </div>
 
+      <div
+        id="Footer"
+        ref={FooterRef}
+        className={`transition-all duration-1000 ease-out ${
+          FooterInView
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 translate-y-20"
+        }`}
+      >
       <div
         id="Footer"
         ref={FooterRef}
