@@ -7,7 +7,7 @@ interface Reward {
     description: string;
     points: string;
 }
-
+// items a ser renderizados
 const rewards: Reward[] = [
     {
         id: 1,
