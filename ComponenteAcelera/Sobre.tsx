@@ -29,11 +29,11 @@ const Sobre = () => {
       >
         <div className="flex flex-col justify-evenly items-center w-full lg:mb-20 2xl:mb-52">
           <div className="flex flex-col items-center lg:items-start lg:mt-10">
-            <h1 className="text-[30px] text-center px-1 lg:px-0 font-semibold lg:text-[59px] lg:w-[600px] lg:leading-[65px] lg:text-start pb-7 font-['Audiowide']">
+            <h1 className="text-[30px] text-center px-1 lg:px-0 font-semibold lg:text-[59px] lg:w-[600px] lg:leading-[65px] lg:text-start pb-7 font-['Quantico']">
               <span className="text-[#4A90E2]">Multiplique</span> <span className="ml-2">seus</span> <br />
               pontos com as <br />
               promoções do <br />
-              <span className="text-[#4A90E2]">Programa</span> <span className="ml-2 text-[#4A90E2]">Acelera</span>
+              <span className="text-[#4A90E2]">programa</span> <span className="ml-2 text-[#4A90E2]">Acelera</span>
             </h1>
             <button className="bg-[#4A90E2] lg:hover:bg-[#1456a3] lg:w-[70%] w-[95%] h-[50px] 2xl:w-[90%] 2xl:h-[60px] 2xl:text-2xl rounded-[10px] justify-center items-center lg:mb-7 font-semibold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:shadow-[0px_8px_10px_-2px_rgba(74,144,226,0.4)] ">
               Cadastre-se e Ganhe Pontos!

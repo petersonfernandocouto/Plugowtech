@@ -32,18 +32,18 @@ const Premios = () => {
         {/* Div de Texto */}
         <div className="flex flex-col justify-evenly items-center w-full lg:mb-40 z-0">
           <div className="flex flex-col items-center lg:items-start">
-            <h1 className="text-[34px] mt-10 lg:mt-0 text-center px-1 font-semibold lg:text-[54px] 2xl:text-[60px] lg:w-[620px] lg:leading-none lg:text-start font-['Audiowide']">
-              Ganhe Pontos nas
+            <h1 className="text-[34px] mt-10 lg:mt-0 text-center px-1 font-semibold lg:text-[54px] 2xl:text-[60px] lg:w-[620px] lg:leading-none lg:text-start font-['Quantico']">
+              Ganhe pontos nas
             </h1>
-            <span className="text-[#FE8C19] text-[34px] text-center px-1 lg:px-0 font-semibold lg:text-[54px] 2xl:text-[60px] lg:w-[620px] lg:leading-none leading-3  lg:text-start pb-7 font-['Audiowide'] ">
-              Lojas Parceiras
+            <span className="text-[#FE8C19] text-[34px] text-center px-1 lg:px-0 font-semibold lg:text-[54px] 2xl:text-[60px] lg:w-[620px] lg:leading-none leading-3  lg:text-start pb-7 font-['Quantico'] ">
+              lojas parceiras
             </span>
             <p className="text-sm lg:text-lg 2xl:text-xl px-4 lg:px-0 text-center lg:w-[448px] lg:text-start pb-7">
               A cada compra nas lojas parceiras, você acumula pontos
               automaticamente. Quanto mais você gasta, mais pontos você ganha!
             </p>
             <button className="bg-[#FE8C19] lg:hover:bg-[#c46a10] lg:w-[70%] w-[95%] h-[50px] 2xl:w-[90%] 2xl:h-[60px] 2xl:text-2xl rounded-[10px] justify-center items-center mb-7 2xl:mb-40    font-semibold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:shadow-[0px_8px_10px_-2px_rgba(196,106,16,0.4)] flex">
-              <FaTrophy className="mr-3" /> Veja os Prêmios Disponíveis
+              <FaTrophy className="mr-3" /> Veja os prêmios disponíveis
             </button>
           </div>
         </div>
