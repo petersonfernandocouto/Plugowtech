@@ -41,8 +41,10 @@ const rewards: Reward[] = [
 
 const Rewards: React.FC = () => {
     const [selectedReward, setSelectedReward] = useState<number>(rewards[0].id);
+    //cont onde realiza uma verificação se a resolução recebida se enquadra em mobile ou desktop
     const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth <= 768);
 
+    //identifica resolução do dispositivo para ser definido se é mobile ou não
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth <= 768);
@@ -58,12 +60,13 @@ const Rewards: React.FC = () => {
             </h2>
             <div className="w-[95vw] mx-auto max-w-[1400px]">
                 {isMobile ? (
+                    //renderização de todo conteudo mobile
                     <div>
                         {rewards.map((reward) => (
                             <div key={reward.id} className=" flex flex-col gap-5 mb-8">
                                 <h3 className="text-2xl font-bold mb-4">{reward.title}</h3>
-                                <img src={reward.image} alt={reward.title} className="w-[250px] text-center" />
-                                <div className="w-[250px]">
+                                <img src={reward.image} alt={reward.title} className="w-[70vw] text-center" />
+                                <div className="w-[70vw]">
                                     <p className="text-lg font-medium">{reward.description}</p>
                                     <p className="text-xl font-bold mt-4">{reward.points} pontos</p>
                                 </div>
@@ -71,6 +74,7 @@ const Rewards: React.FC = () => {
                         ))}
                     </div>
                 ) : (
+                    //renderização de todo conteudo desktop
                     rewards
                         .filter((reward) => reward.id === selectedReward)
                         .map((reward) => (

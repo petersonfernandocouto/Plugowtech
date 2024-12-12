@@ -81,13 +81,44 @@ body {
 
 .animate-marquee {
   display: flex;
-  width: calc(200%); /* Duplicamos o tamanho do contêiner */
-  animation: marquee 10s linear infinite;
+  width: calc(100%); 
+  animation: marquee 5s linear infinite;
 }
 
 .flex-shrink-0 {
   flex-shrink: 0;
-  width: 20%; /* Divida igualmente as imagens no espaço */
+  width: 19%;
+  height: 300px; 
 
 }
 
+@media (max-width: 768px) { /* Para telas menores */
+  .animate-marquee {
+    gap: 5px; /* Define um espaço entre as imagens */
+  }
+}
+
+
+@media (min-width: 1024px) { /* Breakpoint lg */
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-marquee {
+    display: flex;
+    width: calc(100%); 
+    animation: marquee 10s linear infinite;
+  }
+  
+  
+  .flex-shrink-0 {
+    width: 20%; /* Ajusta para telas lg ou maiores */
+    height: auto;
+  }
+}
