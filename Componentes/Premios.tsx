@@ -19,8 +19,9 @@ const Premios = () => {
         backgroundImage: `url(${premios.src})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center 10%',
-        backgroundRepeat: 'no-repeat',
+        backgroundRepeat: ' no-repeat',
         width: '100%',
+        height: '100%',
         overflow: 'visible',
       }}
     >

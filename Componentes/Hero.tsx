@@ -13,7 +13,7 @@ const Hero = () => {
   const { ref: PremiosRef, inView: PremiosInView } = useInView({ triggerOnce: true });
 
   return (
-    <div
+    <div 
       style={{
         backgroundImage: `url(${BGHero.src})`,
         backgroundSize: "cover",
