@@ -35,9 +35,16 @@ const Sobre = () => {
               promoções do <br />
               <span className="text-[#4A90E2]">programa</span> <span className="ml-2 text-[#4A90E2]">Acelera</span>
             </h1>
-            <button className="bg-[#4A90E2] lg:hover:bg-[#1456a3] lg:w-[70%] w-[95%] h-[50px] 2xl:w-[90%] 2xl:h-[60px] 2xl:text-2xl rounded-[10px] justify-center items-center lg:mb-7 font-semibold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:shadow-[0px_8px_10px_-2px_rgba(74,144,226,0.4)] ">
-              Cadastre-se e ganhe pontos!
-            </button>
+                <a
+              href="https://api.whatsapp.com/send/?phone=5511917922253&text=Quero+viver+as+experi%C3%AAncias+do+Partnership.&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="lg:w-[70%] w-[95%] 2xl:w-[90%]"
+            >
+              <button className="bg-[#4A90E2] lg:hover:bg-[#1456a3] h-[50px] 2xl:h-[60px] 2xl:text-2xl rounded-[10px] justify-center items-center lg:mb-7 font-semibold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:shadow-[0px_8px_10px_-2px_rgba(74,144,226,0.4)] w-full">
+                Cadastre-se e ganhe pontos!
+              </button>
+            </a>
           </div>
         </div>
 
