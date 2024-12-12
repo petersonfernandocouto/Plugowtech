@@ -38,7 +38,7 @@ const Partnership = () => {
             O que é o <br></br> Acelera Partnership?
           </h1>
           <p className="text-base lg:text-lg px-4 lg:px-0 font-bold mb-20">
-            O <span className="text-[#4A90E2]">Acelera</span> é um programa de promoções dentro do Partnership que permite ao usuário <span className="text-[#4A90E2]">multiplicar</span> o acúmulo de pontos de acordo com as regras específicas de cada <span className="text-[#4A90E2]">promoção</span>. Além disso, ao atingir as metas estabelecidas, é possível obter <span className="text-[#4A90E2]"> experiências incríveis.</span>
+            O <span className="text-[#4A90E2]">Acelera</span> é um programa de promoções dentro do Partnership que permite ao usuário <span className="text-[#4A90E2]">multiplicar</span> o acúmulo de pontos de acordo com as regras específicas de cada <span className="text-[#4A90E2]">promoção</span>. Além disso, ao atingir as metas estabelecidas, é possível obter <span className="text-[#4A90E2]"> recompensas incríveis.</span>
           </p>
         </div>
       </div>
