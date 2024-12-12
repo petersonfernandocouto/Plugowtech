@@ -32,10 +32,10 @@ const Premios = () => {
         {/* Div de Texto */}
         <div className="flex flex-col justify-evenly items-center w-full lg:mb-40 z-0">
           <div className="flex flex-col items-center lg:items-start">
-            <h1 className="text-[34px] mt-10 lg:mt-0 text-center px-1 font-semibold lg:text-[54px] 2xl:text-[60px] lg:w-[620px] lg:leading-none lg:text-start font-['Quantico']">
+            <h1 className="text-[34px] mt-10 lg:mt-0 text-center px-1 font-semibold lg:text-[64px] 2xl:text-[60px] lg:w-[620px] lg:leading-none lg:text-start font-['Quantico']">
               Ganhe pontos nas
             </h1>
-            <span className="text-[#FE8C19] text-[34px] text-center px-1 lg:px-0 font-semibold lg:text-[54px] 2xl:text-[60px] lg:w-[620px] lg:leading-none leading-3  lg:text-start pb-7 font-['Quantico'] ">
+            <span className="text-[#FE8C19] text-[34px] text-center px-1 lg:px-0 font-semibold lg:text-[64px] 2xl:text-[60px] lg:w-[620px] lg:leading-none leading-3  lg:text-start pb-7 font-['Quantico'] ">
               lojas parceiras
             </span>
             <p className="text-sm lg:text-lg 2xl:text-xl px-4 lg:px-0 text-center lg:w-[448px] lg:text-start pb-7">
