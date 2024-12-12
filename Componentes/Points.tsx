@@ -59,8 +59,8 @@ const Points = () => {
           <div className="border-l-2 2xl:border-l-[7px] border-gray-300 h-[60px] mb-2"></div>
           <p className="font-semibold text-[20px]  2xl:text-[30px]">
             Troque seus
-            <br /> pontos por 
-            <br /> viagens incríveis
+            <br /> pontos por prêmios
+            <br /> incríveis
           </p>
           <div className="border-l-2 2xl:border-l-[7px] border-gray-300 h-[60px] mt-2"></div>
           <p className='text-[50px] 2xl:text-[80px] font-[Audiowide] '>4</p>

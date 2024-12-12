@@ -27,7 +27,7 @@ const PremiosAcelera = () => {
       className="flex flex-col items-center overflow-hidden"
     >
       <h1 className="text-[30px] text-center lg:text-[45px] 2xl:text-[60px] font-semibold font-[Quantico] mb-[80px]">
-        Descubra as experiências incríveis do <span className="text-[#4A90E2]">Acelera</span>
+        Descubra os prêmios incríveis do <span className="text-[#4A90E2]">Acelera</span>
       </h1>
 
       {/* Contêiner do carrossel */}
