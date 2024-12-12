@@ -1,3 +1,7 @@
+<h1>Em construção</h1>
+
+Este projeto será finalizado em Dezembro de 2024, irei compartilhar os detalhes do projeto pós-término.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
