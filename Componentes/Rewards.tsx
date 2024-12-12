@@ -11,28 +11,28 @@ interface Reward {
 const rewards: Reward[] = [
     {
         id: 1,
-        image: 'reward1.png',
+        image: 'reward1.webp',
         title: 'Ilhabela/SP',
         description: 'Hospedagem em hotel três estrelas ou superior\nCafé da manhã\nTrês dias e duas noites',
         points: '150.000',
     },
     {
         id: 2,
-        image: 'reward2.png',
+        image: 'reward2.webp',
         title: 'Ushuaia',
         description: 'Passagem aérea ida e volta\nHospedagem em hotel três estrelas ou superior\nCafé da manhã\nCinco dias e quatro noites',
         points: '450.000',
     },
     {
         id: 3,
-        image: 'reward3.png',
+        image: 'reward3.webp',
         title: 'Croácia',
         description: 'Passagem aérea ida e volta\nHospedagem em hotel três estrelas ou superior\nCafé da manhã\nTrês dias e duas noites',
         points: '750.000',
     },
     {
         id: 4,
-        image: 'reward4.png',
+        image: 'reward4.webp',
         title: 'Disney',
         description: 'Passagem aérea ida e volta\nHospedagem em hotel três estrelas ou superior\nCafé da manhã\nCinco dias e quatro noites\nIngresso para o parque',
         points: '900.000',
