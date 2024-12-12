@@ -37,7 +37,8 @@ const Partnership = () => {
         <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
           <h1 className="text-3xl font-semibold font-['Quantico'] mb-10 lg:mb-20 lg:ml-10">
             O que é o <br /> Acelera Partnership?
-          </h1><
+          </h1>
+
           {showMainContent ? (
             <div className="flex gap-2  2xl:gap-10 lg:ml-10">
               <p className="text-base lg:text-lg px-4 lg:px-0 font-bold mb-20">

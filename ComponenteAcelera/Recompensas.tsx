@@ -25,26 +25,19 @@ const Recompensas = () => {
 
                       <div className="flex flex-col items-center">
                       <h1 className="text-3xl text-center px-1 font-semibold lg:text-[54px] 2xl:text-[58px] lg:w-[620px] lg:leading-none font-['Quantico']">
-                        Entre para o Partnership
+                        Entre para o clube de 
                         <span className="text-[#4A90E2] text-3xl text-center font-semibold lg:text-[54px] lg:w-[620px]  font-['Quantico'] pl-[10px]">
-                        Connect!
+                        recompensas!
                       </span>
                       </h1>
 
-                      <p className="text-base lg:text-lg 2xl:text-xl px-4 lg:px-0 text-center lg:w-[448px] lg: pt-10 pb-10">
+                      <p className="text-base lg:text-lg 2xl:text-xl px-4 lg:px-0 text-center lg:w-[448px] lg:text-start pt-10 pb-10">
                         Cadastre-se agora e comece a acumular pontos
-                        para trocar por experiências incríveis!
+                        para trocar por prêmios incríveis!
                       </p>
-                      <a
-                        href="https://api.whatsapp.com/send/?phone=5511917922253&text=Quero+viver+as+experi%C3%AAncias+do+Partnership.&type=phone_number&app_absent=0"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="lg:w-[70%] w-[95%] 2xl:w-[90%]"
-                      >
-                        <button className="bg-[#4A90E2] lg:hover:bg-[#1456a3] h-[50px] 2xl:h-[60px] 2xl:text-2xl rounded-[10px] justify-center items-center lg:mb-7 font-semibold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:shadow-[0px_8px_10px_-2px_rgba(74,144,226,0.4)] w-full">
-                          Cadastre-se e ganhe pontos!
-                        </button>
-                      </a>
+                      <button className="bg-[#4A90E2] lg:hover:bg-[#1456a3] w-[70%] h-[50px] 2xl:w-[90%] 2xl:h-[60px] 2xl:text-2xl rounded-[10px] justify-center items-center font-semibold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:shadow-[0px_8px_10px_-2px_rgba(74,144,226,0.4)] flex">
+                        Cadastre-se agora!
+                      </button>
                       </div>
 
                       </div>
