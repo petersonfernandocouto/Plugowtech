@@ -77,7 +77,8 @@ export default function Home() {
       >
         <PointsMobile />
       </div>
-      <div>
+      <div
+      id="rewards">
         <Rewards/>
       </div>
       <div

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import PartBG from '../IMG/MENPARTTWO.png';
+import PartBG from "../IMG/MENPARTTWO.png";
 import Image from 'next/image';
 import MENPart from '../IMG/MENPART.png';
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
@@ -17,10 +17,6 @@ const Partnership = () => {
         backgroundPosition: "center 10%",
         backgroundRepeat: "no-repeat",
         width: "100%",
-        borderTopLeftRadius: "80px",
-        borderTopRightRadius: "80px",
-        borderBottomLeftRadius: "80px",
-        borderBottomRightRadius: "80px",
         overflow: "visible",
         padding: "40px 20px",
       }}
@@ -42,7 +38,7 @@ const Partnership = () => {
           {showMainContent ? (
             <div className="flex gap-2  2xl:gap-10 lg:ml-10">
               <p className="text-base lg:text-lg px-4 lg:px-0 font-bold mb-20">
-                O <span className="text-[#4A90E2]">Acelera</span> é um programa de promoções dentro do Partnership que permite ao usuário <span className="text-[#4A90E2]">multiplicar</span> o acúmulo de pontos de acordo com as regras específicas de cada <span className="text-[#4A90E2]">promoção</span>. Além disso, ao atingir as metas estabelecidas, é possível obter <span className="text-[#4A90E2]">recompensas incríveis.</span>
+                O <span className="text-[#4A90E2]">Acelera</span> é um programa de promoções dentro do Partnership que permite ao usuário <span className="text-[#4A90E2]">multiplicar</span> o acúmulo de pontos de acordo com as regras específicas de cada <span className="text-[#4A90E2]">promoção</span>. Além disso, ao atingir as metas estabelecidas, é possível obter <span className="text-[#4A90E2]">experiências incríveis.</span>
               </p>
               <button
                 className="mb-20 text-[25px] lg:hover:text-gray-500"
