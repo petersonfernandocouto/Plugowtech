@@ -7,7 +7,8 @@ interface Reward {
     description: string;
     points: string;
 }
-// items a ser renderizados
+
+// Items a serem renderizados
 const rewards: Reward[] = [
     {
         id: 1,
@@ -41,10 +42,9 @@ const rewards: Reward[] = [
 
 const Rewards: React.FC = () => {
     const [selectedReward, setSelectedReward] = useState<number>(rewards[0].id);
-    //cont onde realiza uma verificação se a resolução recebida se enquadra em mobile ou desktop
     const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth <= 768);
 
-    //identifica resolução do dispositivo para ser definido se é mobile ou não
+    // Identifica resolução do dispositivo para ser definido se é mobile ou não
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth <= 768);
@@ -54,19 +54,19 @@ const Rewards: React.FC = () => {
     }, []);
 
     return (
-        <div className="w-[90vw] mx-auto flex flex-col gap-5 font-quantico p-9 bg-cover bg-center rounded-[60px] border-4 border-[#FE8C19]" style={{ backgroundImage: "url('rewardBG.svg')" }}>
+        <div className="w-full max-w-[90vw] mx-auto flex flex-col gap-5 font-quantico p-9 bg-cover bg-center rounded-[60px] border-4 border-[#FE8C19]" style={{ backgroundImage: "url('rewardBG.svg')" }}>
             <h2 className="text-center text-3xl font-bold mb-12">
                 Conheça as experiências do Partnership
             </h2>
-            <div className="w-[95vw] mx-auto max-w-[1400px]">
+            <div className="w-full max-w-[1400px] mx-auto">
                 {isMobile ? (
-                    //renderização de todo conteudo mobile
+                    // Renderização de conteúdo mobile
                     <div>
                         {rewards.map((reward) => (
-                            <div key={reward.id} className=" flex flex-col gap-5 mb-8">
+                            <div key={reward.id} className="flex flex-col gap-5 mb-8">
                                 <h3 className="text-2xl font-bold mb-4">{reward.title}</h3>
-                                <img src={reward.image} alt={reward.title} className="w-[70vw] text-center" />
-                                <div className="w-[70vw]">
+                                <img src={reward.image} alt={reward.title} className="w-full max-w-[70vw] h-auto mx-auto" />
+                                <div className="w-full max-w-[70vw] mx-auto">
                                     <p className="text-lg font-medium">{reward.description}</p>
                                     <p className="text-xl font-bold mt-4">{reward.points} pontos</p>
                                 </div>
@@ -74,7 +74,7 @@ const Rewards: React.FC = () => {
                         ))}
                     </div>
                 ) : (
-                    //renderização de todo conteudo desktop
+                    // Renderização de conteúdo desktop
                     rewards
                         .filter((reward) => reward.id === selectedReward)
                         .map((reward) => (
