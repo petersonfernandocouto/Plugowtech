@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 interface Reward {
     id: number;
@@ -42,7 +43,7 @@ const rewards: Reward[] = [
 
 const Rewards: React.FC = () => {
     const [selectedReward, setSelectedReward] = useState<number>(rewards[0].id);
-    const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth <= 768);
+    const [isMobile, setIsMobile] = useState<boolean>(typeof window !== 'undefined' && window.innerWidth <= 768);
 
     // Identifica resolução do dispositivo para ser definido se é mobile ou não
     useEffect(() => {
@@ -54,7 +55,10 @@ const Rewards: React.FC = () => {
     }, []);
 
     return (
-        <div className="w-full max-w-[90vw] mx-auto flex flex-col gap-5 font-quantico p-9 bg-cover bg-center rounded-[60px] border-4 border-[#FE8C19]" style={{ backgroundImage: "url('rewardBG.svg')" }}>
+        <div
+            className="w-full max-w-[90vw] mx-auto flex flex-col gap-5 font-quantico p-9 bg-cover bg-center rounded-[60px] border-4 border-[#FE8C19]"
+            style={{ backgroundImage: "url('rewardBG.svg')" }}
+        >
             <h2 className="text-center text-3xl font-bold mb-12">
                 Conheça as experiências do Partnership
             </h2>
@@ -62,10 +66,25 @@ const Rewards: React.FC = () => {
                 {isMobile ? (
                     // Renderização de conteúdo mobile
                     <div>
+                        <h5 className="w-full lg:w-[567px] bg-[#FE8C1950] rounded-md p-4 text-lg font-medium mb-7">
+                            Valores e pontos estão
+                            sujeitos à cotação do
+                            dólar e podem mudar
+                            sem aviso. Solicite o
+                            catálogo para
+                            informações atualizadas
+                            sobre sua viagem.
+                        </h5>
                         {rewards.map((reward) => (
                             <div key={reward.id} className="flex flex-col gap-5 mb-8">
                                 <h3 className="text-2xl font-bold mb-4">{reward.title}</h3>
-                                <img src={reward.image} alt={reward.title} className="w-full max-w-[70vw] h-auto mx-auto" />
+                                <Image
+                                    src={`/${reward.image}`}
+                                    alt={reward.title}
+                                    width={300}
+                                    height={200}
+                                    className="w-full max-w-[70vw] h-auto mx-auto"
+                                />
                                 <div className="w-full max-w-[70vw] mx-auto">
                                     <p className="text-lg font-medium">{reward.description}</p>
                                     <p className="text-xl font-bold mt-4">{reward.points} pontos</p>
@@ -79,7 +98,13 @@ const Rewards: React.FC = () => {
                         .filter((reward) => reward.id === selectedReward)
                         .map((reward) => (
                             <div key={reward.id} className="flex flex-col lg:flex-row gap-16 text-sm">
-                                <img src={reward.image} alt={reward.title} className="w-full lg:w-[405px] h-auto lg:h-[576px]" />
+                                <Image
+                                    src={`/${reward.image}`}
+                                    alt={reward.title}
+                                    width={405}
+                                    height={576}
+                                    className="w-full lg:w-[405px] h-auto lg:h-[576px]"
+                                />
 
                                 <div className="w-full lg:w-[650px]">
                                     <p className="text-2xl font-bold mb-12">A partir de</p>
