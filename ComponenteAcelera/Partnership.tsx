@@ -17,10 +17,6 @@ const Partnership = () => {
         backgroundPosition: "center 10%",
         backgroundRepeat: "no-repeat",
         width: "100%",
-        borderTopLeftRadius: "80px",
-        borderTopRightRadius: "80px",
-        borderBottomLeftRadius: "80px",
-        borderBottomRightRadius: "80px",
         overflow: "visible",
         padding: "40px 20px",
       }}

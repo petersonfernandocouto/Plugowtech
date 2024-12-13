@@ -4,7 +4,7 @@ import Agencia from '../IMG/Agencia.png'
 const Recompensas = () => {
   return (
     <div
-      className='rounded-t-[20px] lg:rounded-t-[80px] lg:rounded-b-[80px] rounded-b-[20px]  '
+      className='rounded-t-[0px] lg:rounded-t-[0px] lg:rounded-b-[0px] rounded-b-[0px]  '
       style={{
         backgroundImage: `url(${Agencia.src})`, 
         backgroundSize: 'cover', 

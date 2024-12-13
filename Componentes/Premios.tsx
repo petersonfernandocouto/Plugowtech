@@ -15,7 +15,7 @@ const Premios = () => {
 
   return (
     <div
-      className="rounded-t-[20px] lg:rounded-t-[80px]"
+      className="rounded-t-[0px] lg:rounded-t-[0px]"
       style={{
         backgroundImage: `url(${premios.src})`,
         backgroundSize: 'cover',
