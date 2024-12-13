@@ -87,7 +87,7 @@ const PointsMobile = () => {
                 
                 <GiCommercialAirplane className='border-[2px] text-[73px] rounded-full p-4 bg-[#4A90E2] relative -top-16' />
 
-                <p className='-mt-5 mb-5 text-[20px] font-semibold'>Troque seus<br /> pontos por prêmios<br /> incríveis</p>
+                <p className='-mt-5 mb-5 text-[20px] font-semibold'>Troque seus<br /> pontos por viagens<br /> incríveis</p>
                 
 
             </div>

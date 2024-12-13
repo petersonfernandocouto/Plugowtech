@@ -76,7 +76,7 @@ function FAQTest() {
             <div className="flex flex-col items-start gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">O que é o PARTNERSHIP?</h3>
               <p className=" text-lg">
-              O PARTNERSHIP é um programa de fidelidade e recompensas criado para profissionais como arquitetos, engenheiros, designers, construtoras e consultores. Ele permite que você acumule pontos com suas compras em lojas parceiras e os troque por experiências exclusivas, como viagens, cruzeiros, workshops, entre outros benefícios.
+              O PARTNERSHIP é um programa de fidelidade e experiência criado para profissionais como arquitetos, engenheiros, designers e construtoras. Ele permite que você acumule pontos em lojas parceiras e os troque por experiências exclusivas, como viagens, cruzeiros, workshops, entre outros benefícios.
               </p>
             </div>
           </div>
@@ -101,7 +101,7 @@ function FAQTest() {
             <div className="flex flex-col gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">Quem pode participar do programa?</h3>
               <p className=" text-lg">
-              Podem participar profissionais (como arquitetos, engenheiros e designers) e consultores que indicam projetos para lojas parceiras. Ambos acumulam pontos e têm acesso às recompensas do programa.
+              Podem participar profissionais (como arquitetos, engenheiros e designers) e construtoras que indicam projetos para lojas parceiras. Ambos acumulam pontos e têm acesso às experiências do programa.
               </p>
             </div>
           </div>
@@ -128,7 +128,7 @@ function FAQTest() {
             <div className="flex flex-col items-start gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">Como acumulo pontos?</h3>
               <p className="text-lg">
-              Você acumula pontos ao realizar compras nas lojas parceiras. Profissionais: Ganham 1 ponto para cada R$1,00 gasto. Consultores: Ganham 0,5 ponto para cada R$1,00 gasto.
+              Você acumula pontos ao realizar compras nas lojas parceiras. Ganha 1 ponto para cada R$1,00 gasto.
               </p>
             </div>
           </div>
@@ -180,9 +180,9 @@ function FAQTest() {
               alt="hero-img"
             />
             <div className="flex flex-col items-start gap-4 px-4 pt-10 lg:px-0">
-              <h3 className="text-xl font-bold">Quais tipos de recompensas posso resgatar?</h3>
+              <h3 className="text-xl font-bold">Quais tipos de experiências posso resgatar?</h3>
               <p className="text-lg">
-              O PARTNERSHIP oferece um catálogo exclusivo de recompensas, incluindo:Viagens nacionais, internacionais, Cruzeiros, Workshops e Promoções especiais em lojas parceiras
+              O PARTNERSHIP oferece um catálogo exclusivo de experiências, incluindo: Viagens nacionais, internacionais, Cruzeiros, Workshops e Promoções especiais em lojas parceiras
               </p>
             </div>
           </div>
@@ -207,7 +207,7 @@ function FAQTest() {
             <div className="flex flex-col gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">Como faço meu cadastro no programa?</h3>
               <p className=" text-lg">
-              Você pode se cadastrar diretamente pelo site ou aplicativo do PARTNERSHIP. O processo é simples e rápido, exigindo apenas o preenchimento de um formulário online.
+              Você pode se cadastrar diretamente pelo site do PARTNERSHIP. O processo é simples e rápido, exigindo apenas o preenchimento de um formulário online pelo Whatsapp.
               </p>
             </div>
 
@@ -237,7 +237,7 @@ function FAQTest() {
             <div className="flex flex-col items-start gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">Como acompanho meus pontos e resgates?</h3>
               <p className=" text-lg">
-              Você pode acompanhar o saldo de pontos, histórico de resgates e níveis de fidelidade no painel do site ou aplicativo do PARTNERSHIP. Além disso, notificações e campanhas personalizadas são enviadas por e-mail ou WhatsApp.
+              Você pode acompanhar o saldo de pontos e histórico de resgates no painel do site ou whatsapp do PARTNERSHIP. Além disso, notificações e campanhas personalizadas são enviadas por e-mail ou WhatsApp.
               </p>
             </div>
           </div>
@@ -262,7 +262,7 @@ function FAQTest() {
             <div className="flex flex-col gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">É possível transferir meus pontos para outra pessoa?</h3>
               <p className=" text-lg">
-                 Os pontos acumulados são pessoais e intransferíveis. Apenas o titular da conta pode utilizá-los para resgatar recompensas.
+                 Os pontos acumulados são pessoais e intransferíveis. Apenas o titular da conta pode utilizá-los para resgatar experiências.
               </p>
             </div>
 
@@ -291,7 +291,7 @@ function FAQTest() {
             <div className="flex flex-col items-start gap-4 px-4 pt-10 lg:px-0">
               <h3 className="text-xl font-bold">É seguro usar o PARTNERSHIP?</h3>
               <p className=" text-lg">
-              Sim! O PARTNERSHIP utiliza tecnologia avançada de criptografia para proteger seus dados e segue rigorosos controles de acesso. Você pode confiar na segurança do sistema para gerenciar seus pontos e recompensas.
+              Sim! O PARTNERSHIP utiliza tecnologia avançada de criptografia para proteger seus dados e segue rigorosos controles de acesso. Você pode confiar na segurança do sistema para gerenciar seus pontos e experiências.
               </p>
             </div>
           </div>
@@ -314,9 +314,9 @@ function FAQTest() {
               alt="hero-img"
             />
             <div className="flex flex-col gap-4 px-4 pt-10 lg:px-0">
-              <h3 className="text-xl font-bold">Como faço para resgatar minhas recompensas?</h3>
+              <h3 className="text-xl font-bold">Como faço para resgatar minhas experiências?</h3>
               <p className="text-lg">
-              Você pode acessar o catálogo de recompensas pelo site, escolher a experiência desejada e confirmar o resgate. O processo é simples e totalmente online.
+              Você pode acessar o catálogo de experiências pelo site, escolher a experiência desejada e confirmar o resgate. O processo é simples e totalmente online.
               </p>
             </div>
 

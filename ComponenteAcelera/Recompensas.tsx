@@ -25,15 +25,15 @@ const Recompensas = () => {
 
                       <div className="flex flex-col items-center">
                       <h1 className="text-3xl text-center px-1 font-semibold lg:text-[54px] 2xl:text-[58px] lg:w-[620px] lg:leading-none font-['Quantico']">
-                        Entre para o clube de 
+                        Entre para o Partnership
                         <span className="text-[#4A90E2] text-3xl text-center font-semibold lg:text-[54px] lg:w-[620px]  font-['Quantico'] pl-[10px]">
-                        recompensas!
+                        Connect!
                       </span>
                       </h1>
 
                       <p className="text-base lg:text-lg 2xl:text-xl px-4 lg:px-0 text-center lg:w-[448px] lg:text-start pt-10 pb-10">
                         Cadastre-se agora e comece a acumular pontos
-                        para trocar por prêmios incríveis!
+                        para trocar por experiências incríveis!
                       </p>
                       <button className="bg-[#4A90E2] lg:hover:bg-[#1456a3] w-[70%] h-[50px] 2xl:w-[90%] 2xl:h-[60px] 2xl:text-2xl rounded-[10px] justify-center items-center font-semibold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:shadow-[0px_8px_10px_-2px_rgba(74,144,226,0.4)] flex">
                         Cadastre-se agora!

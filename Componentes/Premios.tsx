@@ -43,7 +43,7 @@ const Premios = () => {
               automaticamente. Quanto mais você gasta, mais pontos você ganha!
             </p>
             <button className="bg-[#FE8C19] lg:hover:bg-[#c46a10] lg:w-[70%] w-[95%] h-[50px] 2xl:w-[90%] 2xl:h-[60px] 2xl:text-2xl rounded-[10px] justify-center items-center mb-7 2xl:mb-40    font-semibold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:shadow-[0px_8px_10px_-2px_rgba(196,106,16,0.4)] flex">
-              <FaTrophy className="mr-3" /> Veja os prêmios disponíveis
+              <FaTrophy className="mr-3" /> Veja as experiências disponíveis
             </button>
           </div>
         </div>
