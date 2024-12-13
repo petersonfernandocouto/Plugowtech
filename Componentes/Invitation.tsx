@@ -28,7 +28,7 @@ const Invitation = () => {
                     </span>
                     </h1>
               
-                    <p className="text-base lg:text-lg 2xl:text-xl px-4 lg:px-0 text-center lg:w-[448px] lg:text-start pt-10 pb-10">
+                    <p className="text-base lg:text-lg 2xl:text-xl px-4 lg:px-0 text-center lg:w-[448px] lg: pt-10 pb-10">
                       Cadastre-se agora e comece a acumular pontos
                       para trocar por experiências incríveis!
                     </p>
