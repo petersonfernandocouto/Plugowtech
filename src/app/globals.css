@@ -29,6 +29,10 @@ body {
 
 /*Scroll*/
 
+html {
+  scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
   width: 12px; /* Largura da barra de rolagem vertical */
   height: 12px; /* Altura da barra de rolagem horizontal */
