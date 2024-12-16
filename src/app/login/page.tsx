@@ -7,6 +7,7 @@ import Footer from "../../../Componentes/Footer";
 import Recompensas from "../../../ComponenteAcelera/Recompensas";
 import PremiosAcelera from "../../../ComponenteAcelera/PremiosAcelera";
 import { useInView } from "react-intersection-observer";
+import ScrollToTop from "../../../Componentes/ScrollTop";
 
 //Alterar nome deste export
 
@@ -77,6 +78,7 @@ export default function LoginPage() {
       >
         <Footer />
       </div>
+      <ScrollToTop />
     </div>
   );
 }
