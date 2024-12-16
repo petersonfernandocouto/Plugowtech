@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 
+
+
 interface Reward {
     id: number;
     image: string;
@@ -13,28 +15,28 @@ interface Reward {
 const rewards: Reward[] = [
     {
         id: 1,
-        image: 'reward1.webp',
+        image: 'IMG1.jpg',
         title: 'Ilhabela/SP',
         description: 'Hospedagem em hotel três estrelas ou superior\nCafé da manhã\nTrês dias e duas noites',
         points: '150.000',
     },
     {
         id: 2,
-        image: 'reward2.webp',
+        image: 'IMG2.jpg',
         title: 'Ushuaia',
         description: 'Passagem aérea ida e volta\nHospedagem em hotel três estrelas ou superior\nCafé da manhã\nCinco dias e quatro noites',
         points: '450.000',
     },
     {
         id: 3,
-        image: 'reward3.webp',
+        image: 'IMG3CRO.jpg',
         title: 'Croácia',
         description: 'Passagem aérea ida e volta\nHospedagem em hotel três estrelas ou superior\nCafé da manhã\nTrês dias e duas noites',
         points: '750.000',
     },
     {
         id: 4,
-        image: 'reward4.webp',
+        image: 'img4.jpg',
         title: 'Disney',
         description: 'Passagem aérea ida e volta\nHospedagem em hotel três estrelas ou superior\nCafé da manhã\nCinco dias e quatro noites\nIngresso para o parque',
         points: '900.000',
@@ -83,7 +85,7 @@ const Rewards: React.FC = () => {
                                     alt={reward.title}
                                     width={300}
                                     height={200}
-                                    className="w-full max-w-[70vw] h-auto mx-auto"
+                                    className="w-full max-w-[70vw] h-[450px] mx-auto rounded-[50px] shadow-[5px_5px_0px_0px_rgba(254,140,25,1)]"
                                 />
                                 <div className="w-full max-w-[70vw] mx-auto">
                                     <p className="text-lg font-medium">{reward.description}</p>
@@ -103,7 +105,7 @@ const Rewards: React.FC = () => {
                                     alt={reward.title}
                                     width={405}
                                     height={576}
-                                    className="w-full lg:w-[405px] h-auto lg:h-[576px]"
+                                    className="w-full lg:w-[405px] h-auto lg:h-[576px] rounded-[50px] shadow-[5px_5px_0px_0px_rgba(254,140,25,1)]"
                                 />
 
                                 <div className="w-full lg:w-[650px]">

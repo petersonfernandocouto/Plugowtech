@@ -12,21 +12,14 @@ import { useInView } from "react-intersection-observer";
 import Rewards from "../../Componentes/Rewards";
 
 export default function Home() {
-  const { ref: PremiosRef, inView: PremiosInView } = useInView({
-    triggerOnce: true,
-  });
-  const { ref: PointsRef, inView: PointsInView } = useInView({
-    triggerOnce: true,
-  });
-  const { ref: PointsMobileRef, inView: PointsMobileInView } = useInView({
-    triggerOnce: true,
-  });
-  const { ref: InvitationRef, inView: InvitationInView } = useInView({
-    triggerOnce: true,
-  });
-  const { ref: FooterRef, inView: FooterInView } = useInView({
-    triggerOnce: true,
-  });
+
+  const { ref: PremiosRef, inView: PremiosInView } = useInView({triggerOnce: true,});
+  const { ref: PointsRef, inView: PointsInView } = useInView({triggerOnce: true,});
+  const { ref: PointsMobileRef, inView: PointsMobileInView } = useInView({triggerOnce: true,});
+  const { ref: InvitationRef, inView: InvitationInView } = useInView({triggerOnce: true,});
+  const { ref: RewardsRef, inView: RewardsInView } = useInView({triggerOnce: true,});
+  const { ref: FooterRef, inView: FooterInView } = useInView({triggerOnce: true,});
+  
 
   const [isLoading, setIsLoading] = useState(true);
 
@@ -77,10 +70,17 @@ export default function Home() {
       >
         <PointsMobile />
       </div>
+
       <div
-      id="rewards">
+        id="rewards"
+        ref={RewardsRef}
+          className={`transition-all duration-1000 ease-out ${
+            RewardsInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
+          }`}
+      >
         <Rewards/>
       </div>
+
       <div
         id="InvitationSection"
         ref={InvitationRef}
