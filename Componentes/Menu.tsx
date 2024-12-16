@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { MenuIcon } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
+import Logo from "../IMG/Logo.png"
 
 function Menu() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,7 +24,7 @@ function Menu() {
       <nav className="flex justify-between items-center bg-[rgba(64,64,66,0.4)] py-4 lg:rounded-full px-0  2xl:w-[90%] lg:h-[80px] mx-auto">
         
         <div className="text-2xl pl-4 lg:pl-4 font-bold text-white tracking-wider md:ml-4 md:mr-4">
-          <Link href="/">Partnership</Link>
+          <Link href="/"><Image src={Logo} alt="error" /> </Link>
         </div>
 
         

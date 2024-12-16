@@ -48,7 +48,7 @@ const PremiosAcelera = () => {
         </div>
       </div>
 
-      <p className="font-semibold font-[Quantico] text-center max-w-[600px] mx-auto mt-5 leading-relaxed">
+      <p className="font-semibold font-[Quantico] text-center max-w-[600px] mx-auto  mb-[40px] lg:mb-0 leading-relaxed">
         Fique atento às próximas campanhas. As campanhas do Acelera Partnership são por tempo limitado. 
         Não perca a chance de participar da próxima experiência exclusiva.
       </p>
