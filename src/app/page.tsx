@@ -10,6 +10,7 @@ import Loader from "../../Componentes/Loader";
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import Rewards from "../../Componentes/Rewards";
+import ScrollToTop from "../../Componentes/ScrollTop";
 
 export default function Home() {
 
@@ -100,6 +101,7 @@ export default function Home() {
       >
         <Footer />
       </div>
+      <ScrollToTop />
     </>
   );
 }
