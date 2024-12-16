@@ -7,7 +7,7 @@ import ParceiroTwo from "../IMG/Parceiro2.png";
 const Footer = () => {
   return (
     <div className="bg-[#121212]">
-      <div className="lg:flex lg:justify-evenly pt-8 lg:pt-20 ">
+      <div className="lg:flex lg:justify-evenly pt-8 lg:pt-20">
         <div className="flex gap-32">
           <div className="pl-2 lg:pl-0">
             <h1 className="text-[20px] font-bold border-b-2 border-b-[#4A90E2] w-[60px]">
@@ -15,7 +15,7 @@ const Footer = () => {
             </h1>
 
             <div className="mt-4">
-              <ul className="list-disc list-inside">
+              <ul className="list-none">
                 <li>
                   <Link
                     className="hover:text-gray-300 transition-colors duration-300"
@@ -24,6 +24,7 @@ const Footer = () => {
                     Início
                   </Link>
                 </li>
+
                 <li>
                   <Link
                     className="hover:text-gray-300 transition-colors duration-300"
@@ -32,17 +33,26 @@ const Footer = () => {
                     Acelera
                   </Link>
                 </li>
+
+                <li>
+                  <Link
+                    className="hover:text-gray-300 transition-colors duration-300"
+                    href="/FAQ"
+                  >
+                    Perguntas
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
 
           <div>
-            <h1 className="text-[20px] font-bold border-b-2 border-b-[#4A90E2] w-[60px] ">
+            <h1 className="text-[20px] font-bold border-b-2 border-b-[#4A90E2] w-[60px]">
               Ajuda
             </h1>
 
             <div className="mt-4">
-              <ul className="list-disc list-inside">
+              <ul className="list-none">
                 <li>
                   <Link
                     className="hover:text-gray-300 transition-colors duration-300"
@@ -85,7 +95,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image src={ParceiroTwo} alt="Error" />
+                <Image src={ParceiroTwo} alt="Error" className="mt-4 lg:mt-0" />
               </a>
             </div>
           </div>
